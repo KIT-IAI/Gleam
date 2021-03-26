@@ -1,0 +1,244 @@
+;=================== Error texts =================== Stand: 08/07/2020
+ftext_gb.txt                                                     Linux
+;234567890123456789012345678901234567890123456789012345678901234567890
+;========1=========2=========3=========4=========5=========6=========7
+Name of gene/action %ld too long (max=%ld)
+Chromosome expected!
+Segmentstructure faulty!
+Invalid gene: %ld
+Too few memory for %ld types of genes!
+Invalid "ref_typ": %ld
+Invalid chromosome type: %ld
+Invalid chromosome length: actual value=%ld expected=%ld
+Too few memory for %ld assessment/penalty functions!
+Criterion %ld: Invalid %sfunction type: %ld. Set to undefined.
+Invalid code for chromosome generation: %ld
+Invalid header code: %ld
+Invalid gene code: %ld
+Invalid criterion number: %ld
+Incompatible MOD file! Ident: %s
+Invalid #/index of genetic operators: actual=%ld max=%ld
+Invalid mutation algorithm (%ld) for mutation operator %ld
+Invalid parameter number: actual value=%ld max=%ld
+Too few memory for %ld different segment lengths!
+Invalid initialisiation strategy: %ld
+Data error at %s function of criterion %ld
+Basic chromosome %ld/%ld not found!
+Chromosome cannot be copied. Header code: %ld
+No program-id in EXP file: "%s"
+Invalid fitness class: %ld
+No memory released!
+Memory of %ld chromosomes released.
+MOD file error. %ld values instead of %ld read.
+MODfile: Error at %s
+NIL pointer access.
+More active criteria (%ld) than used (%ld)!
+Not enough memory for allocation of %s
+Segment %ld not found!
+Gene is no "activity_act". Actual gene code: %ld
+No name for gene %ld. Call: %ld
+Chromosome %s cannot be found.
+Chromosome element %ld not found!
+Initialization error!
+Item not found! Code=%ld
+Out of memory, job terminated!
+Segment end not found!
+No sub chain available!
+Oversized population! Actual value=%ld max=%ld
+Chromosome loading error! Chromosome type code=%ld
+BEW file error. %ld values instead of %ld read. 
+Different chromosome lenths: %ld, %ld
+Too many segments: actual value=%ld max=%ld
+SimuModel root directory (SMRD) not available!
+SMRD: %s
+Too many %s. Maximum of %ld displayable.
+Textbuffer: Invalid line number: %ld (1..%ld)
+Gene %ld, parameter %ld: LowerLimit > UpperLimit! 
+File does not exist: "%s"
+%s
+Too few memory for %ld simulator results!
+I/O error at chromosome element: %ld
+Just read %s deleted!
+Chromosome load error: Sub-Chromosome not found!
+%ld of the loaded chromosomes were deleted!
+Error loading %s: Invalid chromosome length!
+Error loading %s: Segment data faulty!
+Loading %s: Out of memory or header error!
+Loading %s: Invalid header! Code=%ld
+Chromosome loading: Invalid header! Code=%ld
+Chromosome loading: Memory reorganization failed!
+Unkown application: %s
+Function not yet implemented!
+Segment %ld not found!
+Chromosome type %ld does not fit to genetic repair of 2 chromosomes!
+Unknown application! Code = %ld
+Chromosome length %ld smaller than %ld (# of genes)!
+%ld simu raw data, but %ld evaluation criteria!
+%s
+ExtSimu: %s
+External simulator %s.
+TSK file error. %ld values instaed of %ld read. 
+Incompatible TSK file! Ident: "%s"
+TSK: Incompatible application: "%s"
+Too few memory for TSK data!
+TSK: Error reading joints.
+TSK: Error writing "%s"-data.
+RobSim reports incompatible task data.
+%s
+Memory configuartio error: ElementSize=%ld DescrSize=%ld
+Present directory cannot be detected!
+No directory: "%s"
+EVO file error. %ld values instead of %ld read.
+EVO file: unexpected EOF! 
+Incompatible EVO file! Ident: "%s"
+Error saving to evo scratch file!
+Only %ld chromosomes in evo scratch file! Expected=%ld
+Abortion%s: simulator crash!
+Error in optimization by LS algorithm!
+Abortion%s for mutation %ld: Chromosome could not be copied.
+Abortion%s: Crash caused by invalid OpCode!
+EvoCrash: operation:%ld operator:%ld
+Abortion%s: gen.operator crash!
+Abortion%s: offspring! Op=%ld
+Invalid op.-code %ld at %s 
+Logfile output faulty while processing evo jobs!
+Available memory: %ld kB (%s MB).
+Unknown local search algorithm (LS)! Code=%ld
+Invalid # of application files: %ld Max=%ld
+# of application files inconsistent! MOD:%ld EXP:%ld
+Old gene model still valid: "%s"
+MOD file error! Gene model data inconsistent!
+Old evaluation still valid: "%s"
+BEW file error! Evaluation data inconsistent!
+Old program parameters remain valid: "%s"
+TSK file error! Task data inconsistent!
+Old evolution parameter still valid: "%s"
+EVO file error! Evolution parameter inconsistent!
+Init error of simulator package (memory out?)
+External simulator not available!
+Error in "%s"-file!
+Incompatible EXP file! Ident: "%s"
+No access to models of the external simulator!
+Check environment variable: "%s"
+Instead of %ld genes olnly %ld read!
+Too many gene types: %ld. Maximum: %ld
+Unknown Identifier: %s
+Error in %s file header!
+Error in application file "%s". Info: %ld
+Error in application file "%s". Part: %ld
+Error in %s file!
+Error writing file: %s
+File not open: "%s"
+Application not linked to program: %s
+Internal software error! Info: %ld %ld
+No results without previous simulation!
+Unknown external simulator: %s
+External simulator has not %s!
+Unknown external simulator! Code: %ld
+Evaluation or penalty function not yet defined!
+No Hamming distance due to nil pointer.
+Error in function "rotangle"
+Destination chromosome must be segmented!
+Identifier of %ldth %s parameter too long!
+Generated chromosomes could not be simulated/repaired!
+Dynamic chromosomes cannot form one start complex!
+Not found in TSK file: "%s"
+Wrong number of local hill climbers in MOD-File: %ld  LHCs=%ld
+Gene model expects not implemented local hill climbers or heuristics
+Wrong local hill climber index in MOD-File: %ld max=%ld
+Gene model activates no local hill climbers. Only GLEAM available!
+Local hill climber %ld specified in gene model is not implemented.
+Sum of local hill climber probabilities: %ld
+Adaptation speed of 10 instead of %ld local hill climbers used.
+To few parameters in program line: %ld min=%ld
+Wrong value of "%s" option or parameter: %ld
+No entry in TSK-file or no option for %s
+Unknown program option: "%s"
+Geno- and phenotypic repair in parallel?
+Unknown optimization procedure! Idx=%ld
+This program can perform only GLEAM! %s
+%s unsuited for dynamic chromosomes!
+Restored and unsimulated chromosome unsimulatable!
+Matlab-Variable unreadable: %s
+CEC-MBF: No IniFile in "cec_input_data".
+Function not included in this version!
+Wrong parameter value of option(s): %ld
+Abortion%s: SimuListIdx=%ld
+Precission in gene/action %ld changed to %ld.
+TOP-Filespecification ignored: %s
+OptJob requires not implemented/activated local hill climbers!
+Simulator result of criterion "%s" is outside the display range.
+Fulfillment value of criterion "%s" is outside the display range.
+Fitness weights sum up to %s instead of 100%!
+The penalty function of criterion %ld does not comply with the fitness function: Both should either rise or fall.
+Criterion %ld: A penalty funtion does not fit to an exponential fitness function.
+For criterion %ld no %s function was defined.
+Data of last changed criterion inconsistent.
+%ld lines of simulator results lost.
+Criterion %ld: Invalid %sfunction type: %ld
+The highest priority of the penalty functions exceeds with %ld the maximum of the evaluation functions of %ld.
+Priority classes reduced to %ld. %s
+Unused priority classes still exist.
+%ld unknown program parameters: %s
+Unknown optimization procedure: %s
+Unknown initization strategy ignored: %s
+TSK-file specification or default of optimization procedure "%s" ignored.
+A hamming distance of %ld is probably too large to control cross-over and recombination.
+Unknown rule for offspring acceptance ignored: %s
+Statistics data cannot be recorded per generation, if their collection is disabled in general.
+Bad parameter index: %ld! Maximum=%ld
+Parameter name "%s" already exists!
+Invalid data type for parameter "%s"!
+Parameter "%s" not found!
+Unknown adaptation speed: "%s"
+Command "%s" of external simulator not executable/known.
+Parameter "%s" has no value!
+A value of %ld is out of range of parameter "%s"!
+Bad line in file: "%s"
+Inactive LHC indicated! Index: %ld
+Invalid file identifier(s) "%s" of incorrectly loaded file(s) in the EXP file. Edit file!
+Specifying a population size for LHCs does not make sense! A size of 1 is used.
+Specification in TSK file for %s repair cannot be performed as it is not implemented!
+Integer expected! Instead found: %s
+Wrong %s. Expected: %ld actual: %ld
+Error in header of %s. See logfile.
+Failed to execute a post request: %s
+Failed to execute a get request: %s
+Failed to execute a curl function: %s
+Error reading %s
+Error writing %s
+Error when creating a chromosome list: %ld
+Time out after %ld seconds when reading a %s
+External simulation service returns empty model list!
+Too many %s. Actual: %ld Maximum: %ld
+Results for chromosome %ld/%ld already received!
+Invalid phase of ObtJob processing. Code: %ld
+Invalid %s of the simulation services: %ld
+Error sending chromosome List: %s
+Error receiving a result list: %s
+Error aborting a job: %s
+Correction of the model name: %s.
+Missing data of program option: %s
+Environment variable %s has no value!
+The matpower case file %s does not exist.
+The simulation result was not extracted into a case file!
+No calculation routine for the powerflow (pf or opf) specified in the MOD file. Was the MOD file created by the MOD-file generator?
+Missing or incorrect delimitation of the LS parameter part at: "%s"
+Unexpected %s delimiter found. Possibly the LS identification is missing in the head!
+Error reading %ld.chromosome of list: %s
+Not enough memory to create a results list: %s
+No Toplogyfile: %s
+TOP-file error! Topology inconsistent.
+TOP-file error: %d values read instead of %d
+No access to selected chromosomes!
+Error creating the start population!
+Parameter "%s" of the gene with code %ld out of limits. Value = %ld
+More evaluation criteria (%ld) than simulation results (%ld)!
+F233: unused
+F234: unused
+F235: unused
+F236: unused
+F237: unused
+F238: unused
+F239: unused
+F240: unused

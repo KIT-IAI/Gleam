@@ -1,0 +1,29 @@
+Bewertungsbeschreibung fuer GLEAM/AE   Wed, 15.07.1998  revised: 24.08.2016
+===========================================================================
+  1   1       Anzahl der aktiven und benutzten Kriterien von insgesamt 16.
+Rastrigin-Fkt.-Wert:
+ 
+ 1  1.000000e+05  1.000000e-04   
+1  1.000000e+05 9.900000e+04 1.000000e+04 0.000000e+00   1
+   1.000000e-04 1.000000e-02 1.500000e+02 3.000000e+03   5.000000e+01
+------------ Straffunktionen: ------------ 
+Fitness            :
+!
+ 0  0.000000e+00  0.000000e+00  
+0  0.000000e+00 1.000000e+04 9.000000e+04 1.000000e+05   1
+   0.000000e+00 1.000000e+00 9.000000e+00 1.000000e+01   0.000000e+00
+=============== Do not remove this line! =================
+Daten pro Eintrag (KRITERIUMS_TYP):
+  Langname mit ":" (max 19 Zeichen, keine Blanks)
+
+  Einheit: Kriterien: Standard-Einheitsbezeichner (" "=leer).
+           StrafFkt:  Einheitsbez bei Bereichsueberschreitung:
+                         <flag><blank><bezeichner>
+                      flag = !: leer
+                             <: 2.Ausgabe des 1000-fachen Werts
+                             >: 2.Ausgabe des 1/1000 des Werts
+                             : 2.Ausgabe im G-Format, wenn Wert < 1.0
+                                  oder Wert >= 100000
+  klasse  max_note  erfuellungs_wert  xtics1 xtics2 xtics3
+  bew_alg   nmin ns1 ns2 nmax   nmax_cont
+            xmin xs1 xs2 xmax   xdrittel

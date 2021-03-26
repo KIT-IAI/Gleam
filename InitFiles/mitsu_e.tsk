@@ -1,0 +1,40 @@
+# --------------------------- Program Parameter File (TSK file) --------------------------
+GLEAM/AE  LESAK/Plus
+# written on Wed, 16.11.2016
+# ----------------------------------------------------------------------------------------
+with Mitsubishi R500                = 1
+with collision test                 = 1
+with end stop test                  = 1
+with depreciation on stop/crash     = 1
+number of axes                      =    5
+simulator cycle time [sec]          =      0.1
+# -------------------------------------------------------------
+with init. of random generator      = 1
+with result simulation              = 1    
+with detailed logging               = 1
+# -------------------------------------------------------------
+number of digits of (simu)parameter =    7
+# -------------------------------------------------------------
+population size                     =  150
+deme size                           =    8    # (Pop|Deme): (5|4) (10|6) (>=20|8)
+init. strategy for start population = new
+init. strategy parameter            =    0    
+ranking parameter                   =      1.4  # 1.0 - 2.0 (selective pressure: min - max)
+minimal hamming dist.f.XO/Reco [%]  =      0.1
+# -------------------------------------------------------------
+run time limit in seconds           =  300    # 5 min
+limit for generations               = 2000
+max.gen. w/o child accept. in deme  =  200    # GAc
+max.gen. w/o deme improvement (GDI) =  400    # GDI
+target fitness                      = 100000.0
+#! ---------------- start- and target-data for LESAK-application: ----------------
+ 0 0 0 0 
+ 0 0 0 0 
+ 0 0 0 0 
+ 0 0 0 0 
+
+ -2.35619415 0.785398 0.785398 1.5707961
+ 0 0 0 0 
+ 0 0 0 0 
+ 0 0 0 0 
+

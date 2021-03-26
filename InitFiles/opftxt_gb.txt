@@ -1,0 +1,8 @@
+;========= Error texts ======= Stand: 05.03.2001
+GLEAM/AE                                   Linux
+;23456789012345678901234567890123456789012345x..
+;===============================================
+Incompatible VL file.
+Result Chromosome %ld/%d not found!
+Too many time intervals for process %ld: %ld
+Error in VL file reading process: %ld

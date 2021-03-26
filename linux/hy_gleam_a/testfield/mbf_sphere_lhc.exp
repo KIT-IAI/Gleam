@@ -1,0 +1,8 @@
+# ================================  Experiment File List  ================================
+GLEAM/AE
+# written on Tue, 01.09.2020 10:41:56
+# ------------------------------- List of Standard Files: --------------------------------
+Gene model                          = mbf_sph_lhc.mod
+Evaluation                          = mbf_sph_e.bew
+Program parameters                  = mbf_sph_amma_e.tsk
+Evolution parameters                = mbf_vpar_e.evo

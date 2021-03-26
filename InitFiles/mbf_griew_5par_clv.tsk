@@ -1,0 +1,26 @@
+# -------------------------- Programmparameter Datei (TSK file) --------------------------
+GLEAM/AE  MathFkt 
+# erzeugt am 22.6.2018
+# --------------------------------------------------------------------------------
+Mit Init. d.Zufallszahlengenerators= Ja
+Mit detaliertem Logging            = ja    # nur fuer die Engine (Command Line Version) 
+Mit Ergebnis-Simulation            = 1     # nur fuer die Engine (Command Line Version) 
+Mit Rettung der ErgebnisChromosomen= Nein  # nur fuer die Engine (Command Line Version)
+Mit Tests auf Jobabbruch           = ja
+Abbruch-Testrate [Paarungen]       = 20
+# -------------------------------------------------------------
+Optimierungsverfahren              = GLEAM
+Populationsgroesse                 =    300
+Nachbarschaftsgroesse              =      8    # (Pop|Deme): (5|4) (10|6) (>=20|8)
+InitStrategie f.die Startpopulation= neu
+InitStrategie-Parameter            =      0   
+Mindesthammingabstand f.XO/Reko [%]=      0.1
+Ranking-Parameter                  =      1.5  # 1.0 - 2.0 (Selektionsdruck: min - max)
+Akzeptanzregel fuer Nachkommen     = localLeast-ES
+Stellenanzahl der (Simu)-Parameter =      7    
+# -------------------------------------------------------------
+Maximale Laufzeit [sec]            =    180    # 3 min
+Maximale Generationsanzahl         =  10000
+Max. Gen. ohne Deme-Verbesserung   =    999    # GDV
+Max. Gen. ohne Akzeptanz im Deme   =    300    # GAk
+Mindest-Zielfitness                = 100000.0

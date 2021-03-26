@@ -1,0 +1,8 @@
+# ================================ Experimentbeschreibung ================================
+GLEAM/AE
+# erzeugt am Tue, 01.09.2020 17:59:16
+# ------------------------------- Liste der Standardfiles: -------------------------------
+Genmodell                           = mbf_rast_lsv.mod
+Bewertung                           = mbf_rast.bew
+Programmparameter                   = mbf_rast_rot_amma.tsk
+Evolutionsparameter                 = mbf_vpar.evo

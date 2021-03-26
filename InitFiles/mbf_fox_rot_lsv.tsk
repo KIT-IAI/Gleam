@@ -1,0 +1,22 @@
+# -------------------------- Programmparameter Datei (TSK file) --------------------------
+GLEAM/AE  MathFkt
+# erzeugt am Tue, 01.09.2020 11:51:46
+# ----------------------------------------------------------------------------------------
+Mit Ergebnis-Simulation             =      1
+Mit Rettung der ErgebnisChromosomen =      0
+Optimierungsverfahren               =   AMMA   # (3)
+LSV-Index                           =      0
+Populationsgroesse                  =     20
+InitStrategie f.die Startpopulation =    neu   # (0)
+InitStrategie-Parameter             =      0
+Nachbarschaftsgroesse               =      8
+Maximale Laufzeit [sec]             =    120
+Akzeptanzregel fuer Nachkommen      = localLeast-ES   # (4)
+Mindesthammingabstand f.XO/Reko [%] = 0.1
+LSV-Iterationslimit                 =   4000
+LSV-Abbruchschranke                 = 1e-07
+Ranking-Parameter                   = 1.5
+Stellenanzahl der (Simu)-Parameter  =      7
+Drehwinkel in Grad                  = 30
+Mit Statistikdaten-Sammlung         =      0
+Mit StatDatenSammlung je Generation =      0

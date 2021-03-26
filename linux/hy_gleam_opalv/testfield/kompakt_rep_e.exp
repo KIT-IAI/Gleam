@@ -1,0 +1,11 @@
+# ================================ Experimentbeschreibung ================================
+GLEAM/AE
+# generated on  Wed, 29.11.2017 
+# ----------------------------------------------------------------------------------------
+Gene model           = opal_standard_e.mod
+Evaluation           = opal_kompakt21_rep_e.bew
+Program parameters   = opal_standard_clv_rep_e.tsk
+Evolution parameters = opal_standard_e.evo
+Chromosome memory    = 
+#! ------------------------- optional list of application specific files --------------------
+opal_standard.vl        # application specific process list

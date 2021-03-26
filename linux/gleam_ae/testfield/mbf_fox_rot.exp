@@ -1,0 +1,7 @@
+GLEAM/AE =======================================================================
+# Experiment "mbf_fox_rot" vom 30.04.2003 12:10:00         File: mbf_fox_rot.exp
+# ===============================================================================
+Genmodell           = mbf_fox.mod
+Bewertung           = mbf_fox.bew
+Programmparameter   = mbf_fox_rot.tsk
+Evolutionsparameter = mbf_wpar.evo

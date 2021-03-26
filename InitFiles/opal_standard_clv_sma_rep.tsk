@@ -1,0 +1,32 @@
+# -------------------------- Programmparameter Datei (TSK file) --------------------------
+GLEAM/AE  OPAL/V
+# erzeugt am Wed, 03.04.2017
+# ----------------------------------------------------------------------------------------
+Soll-SchichtspitzenMax          =    9.0
+Mit phaenotypischer Reparatur   = ja
+# ----------------------------------------------------------------------------------------
+Mit detaliertem Logging            = ja    # nur fuer die Engine (Command Line Version) 
+Mit Ergebnis-Simulation            = ja    # nur fuer die Engine (Command Line Version) 
+Mit Rettung der ErgebnisChromosomen= Nein  # nur fuer die Engine (Command Line Version)
+Mit Tests auf Jobabbruch           = ja    # Abbruch, wenn "evo_stop.tmp" im Arbeitsver-
+Abbruch-Testrate [Paarungen]       = 20    # zeichnis auftaucht. Pruefung: alle 20 Paarungen
+# ----------------------------------------------------------------------------------------
+Optimierungsverfahren               =  sma    # GLEAM, SMA, ASMA, AMMA, LSV  optional
+Populationsgroesse                  =   10    # optional
+Nachbarschaftsgroesse               =    6    # (Pop|Deme): (5|4) (10|6) (>=20|8)
+InitStrategie f.die Startpopulation =  neu    # neu, best, mix, bestNeu, lsvNeu, lsvBest
+InitStrategie-Parameter             =    0    # required for mix, bestNeu, lsvNeu, lsvBest
+Akzeptanzregel fuer Nachkommen      = localLeast-ES  # always, localLeast, betterParent
+Ranking-Parameter                   = 1.4     # optional
+Mindesthammingabstand f.XO/Reko [%] = 0.1     # optional
+# ----------------------------------------------------------------------------------------
+Maximale Laufzeit [sec]             = 1800        # 30 Minuten Stunden
+Maximale Generationsanzahl          = 1000        #    
+Max. Gen. ohne Deme-Verbesserung    =  400        # GDV
+Max. Gen. ohne Akzeptanz im Deme    =  200        # GAk
+Mindest-Zielfitness                 = 100000.0    #    
+# ----------------------------------------------------------------------------------------
+LSV-Index                           =    0    # 0=Rosen, 1=Compl   
+LSV-Iterationslimit                 = 1000    # setting for SMA for the OPAL/V task
+LSV-Abbruchschranke                 =    0.6  # setting for SMA for the OPAL/V task
+Lamarck-Rate [%]                    =  100.0  # default

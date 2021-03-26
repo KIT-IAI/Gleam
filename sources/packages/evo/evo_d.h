@@ -1,0 +1,368 @@
+/* ---------------------------------------------------------------------------------------
+GLEAM/AE                       Sprach-Header-File (Deutsch)
+Package: evo                          File: evo_d.h                    Version:     V2.4.0
+Status : o.k.                        Autor: W.Jakob                      Datum: 29.08.2020
+------------------------------------------------------------------------------------------
+This is free software, which is governed by the Lesser GNU Public Licence (LGPL), version 3, 
+see the comment section at the end of the main program files or the files "schalter.h".
+------------------------------------------------------------------------------------------ */
+
+
+/* ---------------------------- Texte des Moduls: evo_anzg ---------------------------- */
+#define JOBLI_BASIC_HDR1_TXT      "---Job-- --Gr"oe""szt"e- -------Init------- Erg"
+#define JOBLI_BASIC_HDR2_TXT      " Nr OptV Pop/Deme ZufG   Popul  Spar Chr"
+#define JOBLI_BASIC_JOB_VAL_TXT   "%3d %s %5d/%s %s %s %s %3d"
+#define JOBLI_LIMITS_HDR1_TXT     " -------------Zielwerte--------------"
+#define JOBLI_LIMITS_HDR2_TXT     " Fitness hh:mm   Gen  GDV GAk MaxEval"
+#define JOBLI_LIMITS_JOB_VAL_TXT  "  %6ld %s %5d %4d %3d %s"
+#define JOBLI_LHC_LIM_HDR1_TXT    "   Ziel-"
+#define JOBLI_LHC_LIM_HDR2_TXT    " Fitness"
+#define JOBLI_LHC_LIM_JOB_VAL_TXT "  %6ld"
+#define JOBLI_ACT_LHC_HDR1_TXT    "  aktive"
+#define JOBLI_ACT_LHC_HDR2_TXT    "    LSVs"
+#define JOBLI_ACT_LHC_JOB_VAL_TXT " %7s"
+#define JOBLOG_EVO_BASIC_HDR1_TXT " HamDist Rank AkzeptanzRegel"
+#define JOBLOG_EVO_BASIC_HDR2_TXT "     [%]  Par f"ue"r Nachkommen"
+#define JOBLOG_EVO_BASIC_VAL_TXT  " %7.4g %4.3g %s"
+#define JOBLOG_MA_BASIC_HDR1_TXT  " UpdRate Nachkommen"
+#define JOBLOG_MA_BASIC_HDR2_TXT  "     [%]    Auswahl"
+#define JOBLOG_MA_BASIC_VAL_TXT   "     %3d %s"
+#define JOBLOG_INIT_LHC_HDR1_TXT  " | Init:"
+#define JOBLOG_INIT_LHC_HDR2_TXT  " |  LSV:"
+#define JOBLOG_INIT_LHC_VAL_TXT   " | %s "
+#define JOBLOG_AMA_HDR1_TXT       " Fitness Adaptionsgeschw Lern-"
+#define JOBLOG_AMA_HDR2_TXT       " Klassen Param/LSV-Ausw.  rate"
+#define JOBLOG_AMA_VAL_TXT        "       %d %7s/%-7s %5.2f"
+#define ACTIVE_JOB_HDR1_TXT       "     Fitness Laufzeit   Gen  GDV GAk MaxEval |"    
+#define ACTIVE_JOB_HDR2_TXT       "Ziel: %6ld %s %5d %4d %3d %s |"
+#define ACTIVE_LHC_JOB_HDR2_TXT   "Ziel: %6ld        -     -    -   -       - |"
+#define ACTIVE_JOB_HDR_LINE       "---------------------------------------------+"
+#define ACTIVE_JOB_VAL_TXT        "%6ld %s %5d %4d %3d %7ld |"
+#define ACTIVE_LHC_JOB_VAL_TXT    "%6ld %s     -    -   - %7ld |"
+#define ACTIVE_JOB_ACT_VAL_TXT    " Ist"
+#define ACTIVE_JOB_INIT_TXT       "Init"
+#define ACT_JOB_END_HDR1_TXT      "        Joblistenergebnisse"    
+#define ACT_JOB_END_HDR2_TXT      " Anzahl Bestes Chr.: Fitness L"ae"nge"
+#define ACT_JOB_END_HDR_LINE      "----------------------------------"
+#define ACT_JOB_END_VAL_TXT       "%s: %s   %4d               %6ld %5d"
+#define JOBLI_TO_BIG_FES_TXT      "zu gro"szt
+#define BAD_JOB_INDEX_TXT         "Ung"ue"ltiger Jobindex: %d (free_evo_index=%d)"
+#define INIT_FILES_RELOADED_TXT   "            Mindestens eine Initialisierungdatei wurde neu geladen:\n"
+
+#define INIT_FILE_TXT             "   File"
+#define INIT_NEU_TXT              "    neu"
+#define INIT_BEST_TXT             "   best"
+#define INIT_MIX_TXT              "    mix"
+#define INIT_NEU_BEST             "bestNeu"
+#define INIT_LSV_N_TXT            " lsvNeu"
+#define INIT_LSV_B_TXT            "lsvBest"
+#define INIT_ONE_CHR_TXT          " Chromo"
+#define LL_STRAT_TXT              "    localLeast"
+#define LL_ES_STRAT_TXT           " localLeast-ES"
+#define AA_STRAT_TXT              " accept always"  
+#define AA_ES_STRAT_TXT           "acceptAlwaysES"
+#define BP_STRAT_TXT              " better parent"
+#define NO_STRAT_TXT              "    unbekannt!"
+#define MA_ALL_OFFSPRING_TXT      "      alle"
+#define MA_ADAPT_ALL_OFFSPR_TXT   "adapt.alle"
+#define MA_BEST_OFFSPRING_TXT     "nur Besten"
+#define ADI_LANGSAM_TXT           "langsam"
+#define ADI_MITTEL_TXT            "mittel"
+#define ADI_SCHNELL_TXT           "schnell"
+#define JA_FORMATIERT_TXT         "   ja  "
+#define NO_FORMATIERT_TXT         "  nein "
+#define EVO_TXT                   " Evo"
+#define EVO_SMA_TXT               " SMA"
+#define EVO_ASMA_TXT              "ASMA"
+#define EVO_AMMA_TXT              "AMMA"
+
+
+#define JOBLI_STRICH_LANG  "------------------------------------------------------------------------------------------"
+#define ADAPAR_INTRAKT_HDR "Interaktiv einstellbare Steuerparameter der Adaption:"
+#define ADAPAR_INIT_P_TXT  "Initiale Wahrscheinlichkeiten der LSVs:"
+#define ADAPAR_SPEED_TXT   "Werte der LSV- und Level-Adaptionsgeschwindigkeiten \"%s\" und \"%s\":"
+#define ADAPAR_ANW_LSV_TXT "  Mindestanwendungen eines/aller LSVs         : %d / %d"
+#define ADAPAR_ANW_LEV_TXT "  Mindestanwendungen eines/aller Levels       : %d / %d"
+#define ADAPAR_NKL_TXT     "Fitnessklassenanzahl mit (Grenzen, in Tsd)    : %d  ("
+#define ADAPAR_OLDFRAC_TXT "Anteil der alten LSV-Verteilung an der neuen  : %g %%"
+#define ADAPAR_NIX_LSV_TXT "MaxWdh f"ue"r zu kleines Plsv zur LSV-Abschaltung: %d"
+#define ADAPAR_LSV_MIN_TXT "Initiales Pmin f"ue"r LSV-Abschaltung            : %.1f %%"
+#define ADAPAR_HMOD_HDR    "Im Genmodell enthaltene Steuerparameter der Adaption:"
+#define ADAPAR_ALLPLEV_TXT "Werte der %d Level f"ue"r all-P: "
+#define ADAPAR_LSVNAME_TXT "LSV \"%s\":"
+#define ADAPAR_ALLPINI_TXT "    all-P: Startlevel und initiale Wahrscheinlichkeiten: %1d  (%g, %g, %g)"
+#define ADAPAR_PAR_NAM_TXT "    LSV-Parameter \"%s\":"
+#define ADAPAR_PAR_LEV_TXT "      Startlevel u. initiale Wahrscheinlichkeiten: %1d  (%g, %g, %g)"
+#define ADAPAR_PAR_VAL_TXT "      Werte der %d Level: "
+#define JOB_DEAKTIV_TXT    "    Job deaktiviert!"
+
+#define EVOPAR_HDR1        "        Aktuelle Evolutionsparameter (%s):"
+#define EVOPAR_HDR2        "        ============================="
+#define EVOPAR_DEMESIZE    "Nachbarschaftsgr"oe""szt"e                     : %3d"
+#define EVOPAR_LL_ES       "local least (elit"ae"r)"
+#define EVOPAR_LL          "local least"
+#define EVOPAR_AA          "always"
+#define EVOPAR_AA_ES       "always (elit"ae"r)"
+#define EVOPAR_BP          "better parent"
+#define EVOPAR_SURVRULE    "Akzeptanzregel f"ue"r Nachkommen           : "
+#define EVOPAR_RANK        "Ranking-Parameter (1.0 .. 2.0)          : %6.2f"
+#define EVOPAR_XO_HAM      "Mindest-Hamming-Distanz f.Reko/Crossover:   %g %%"
+#define EVOPAR_LAMARCK     "Lamarck- oder Chromosomenupdate-Rate    : %5.1f %%"
+#define EVOPAR_REPAIR      "Anwendungsspezifische Reparaturverfahren: "
+#define EVOPAR_GENO_KL_TXT "genotypisch"
+#define EVOPAR_PHAENOKLTXT "ph"ae"notypisch"
+#define AKT_INIT_LSV_TXT   "Aktuell vordef. LSV f"ue"r Startpop.-Init. : %s"
+#define AKT_LSV_TXT        "Aktuell voreingestelltes LSV            : %s"
+#define EVOPAR_PHAENO      EVOPAR_PHAENO_Q"            : "
+#define EVOPAR_GENO_PHENO  "Warnung: Gleichzeitige geno- und ph"ae"notypische Reparatur m"oe"glicherweise nicht sinnvoll!"
+#define OPTPAR_HDR1        "           Aktuelle Default-Optimierungsstrategie:"
+#define OPTPAR_HDR2        "           ======================================="
+
+#define EVOPAR_ABORTION    " !!!  Abbruch des aktuellen Jobs wegen Speichermangels  !!!"
+#define ENDSTAT_HDR        "Zusammenfassung der Ergebnisse aller Jobs der aktuellen Jobliste:"
+#define ENDSTAT_NOTE       "Beste Fitness                   :   %10.2f"
+#define ENDSTAT_LEN        "L"ae"nge dieses Chromosoms         : %9d"
+#define ENDSTAT_ERG_ANZ    "Anzahl der Ergebnis-Chromosome  : %9d"
+#define ENDSTAT_HDR2       "Zusammenfassung der Ergebnisse aller Jobs aller Joblisten seit Programmstart:"
+#define ENDSTAT_ALL_ERG    "Anzahl aller Ergebnis-Chromosome: %9d"
+#define ENDSTAT_JOB_ANZ    "Anzahl ausgef"ue"hrter Jobs        : %9d"
+#define ENDSTAT_POP_ANZ    "Anzahl der Populationen         : %9d"
+#define ENDSTAT_GEN_ANZ    "Anzahl der Generationen         : %9ld"
+#define ENDSTAT_OFFSPR     "Anzahl bewerteter Nachkommen    : %9ld"
+#define ENDSTAT_TIME       "Gesamtzeit aller Jobs           :  %s"
+
+#define LSV_LIST_TXT       "Lokale Suchverfahren gem"ae""szt" Genmodell (MOD-File):\nDie Steuerparameter k"oe"nnen vom TSK-File "ue"berschrieben werden."
+#define STEU_PARAM_TXT     "  %s, Steuerparameter:"
+#define NO_STEU_PARAM_TXT  "  %s ohne Steuerparameter"
+
+
+/* ---------------------------- Texte des Moduls: evo_steu ---------------------------- */
+#define JOB_TERMINATED_TXT "Opt-Job wegen Fehler abgebrochen! Siehe Meldungen am Ende der Jobliste."
+
+
+/* ---------------------------- Texte des Moduls: evo_gsw ----------------------------- */
+#define CHROMOSOM_TXT      "Chromosom"
+#define CHR_SAVE_TXT       "  Von %d Chromosome wurden %d gespeichert."
+
+
+/* ---------------------------- Texte des Moduls: evo --------------------------------- */
+#define G_INTERVAL_TXT     "der Guete %d..%d"
+#define AK_SCHON_GESP      "Chromosom ist bereits gespeichert oder unver"ae"ndert."
+#define AK_GESPEICHERT     "Chromosom gespeichert. Adresse: %s"
+#define AK_ERR_TXT         "Chromosom wegen Fehler nicht gespeichert!"
+#define GET_BEST_SAVTXT    "Chromosom %3d mit Fitness = %7.1f unter %2d/%d gespeichert."
+#define EVO_CRASH_TIME     ", %s %s I=%d"
+#define GEN_OP_ERR_TXT     "Op %d, Index=%d"
+#define JOBLI_HDR_TXT      "                        Joblisten-Anzeige:"
+#define JOBLI_LEER_TXT     "Die Jobliste ist leer!"
+#define STARTPOP_LSV_OK    "Start-Pop: Chromosom durch LSV verbessert: %8.1f  -->  %8.1f"
+#define STARTPOP_LSVNIX    "Start-Pop: Chromosom nach LSV unver"ae"ndert: %8.1f"
+#define EXT_EVO_FIN_TXT    ">>> Externer Evo-Abbruch bei der %d.Generation, %d.Individuum. Check alle %d Paarungen."
+
+
+/* ------------------------- Texte des Moduls: parSimEvo ------------------------------ */
+#define BAD_RES_AMOUNT_TXT "Anzahl an Ergebnislisteneintr"ae"gen"
+#define BAD_RES_ITEMS_TXT  "Eintr"ae"ge fehlerhafter Simulationen in der Ergebnisliste"
+#define CHR_PTR_TXT        "nicht-leere Chromosomenzeiger"
+#define NO_LIST_RESET_TXT  "kein R"ue"cksetzen der Liste!"
+
+
+/* ---------------------------- Texte des Moduls: evo_cmen: --------------------------- */
+#define JOB_DEF_MEN        "DefOptJob "
+#define JOB_AEND_MEN       AE"ndOptJob "
+#define OPT_START_MEN      "StartJobLi"
+#define ZEIG_JOBLI_MEN     "ZeigeJobLi"
+#define COPY_JOB_MEN       "KopiereJob"
+#define LOE_JOB_MEN        "L"oe"sche Job"
+#define RET_ERG_AK_MEN     "RetteErgAK"
+#define RET_BEST_MEN       "RetBestErg"
+#define EVO_PARAM_MEN      "Opt Params"
+#define DEL_EP_MEN         "L"oe".Popul. "
+#define JOB_NR_QUERY       "Job-Nummer [%d..%d]: "
+#define JOB_SEQ_LEN_Q      "L"ae"nge der zu kopierenden Jobsequenz (1..%d) [1]: "
+#define NIX_TUN_ERR_TXT    "Funktion wegen aktueller Fehlersituation gesperrt!"
+#define FKT_STOER_ERR_TXT  "Funktion kann wegen aktueller Fehlersituation gest"oe"rt sein!"
+#define GJOB_DEF_HDR_TXT   "                    GLEAM-Job %1d definieren:"
+#define JOB_DEF_HDR_TXT    "                     Opt-Job %1d definieren:"
+#define JOB_DEF_ABR_TXT    " Opt-Job-Vorgabe abgebrochen!"
+#define JOBAEND_HDR_TXT    "                          Opt-Job "ae"ndern:"
+#define JOBAEND_ABR_TXT    " Opt-Job-"AE"nderung abgebrochen!"
+#define JLSTART_HDR_TXT    "                     Opt-Job-Liste starten:"
+#define JOBCOPY_HDR_TXT    "                          Kopiere Opt-Job"
+#define JOBCOPY_ANZ_TXT    "Wie oft kopieren (0..%1d) [1]: "
+#define JOBCOPY_OK_TXT     "%1d Opt-Jobs kopiert!"
+#define JOBCOPY_NIX_TXT    "Kein Platz mehr in der Opt-Job-Liste"
+#define JOBLOE_HDR_TXT     "                  L"oe"schung eines/aller Opt-Jobs"
+#define JOBLOE_AKT1_TXT    "Aktiven und einzigen Opt-Job l"oe"schen? "JA_NEIN_TXT
+#define JOBLOE_NR_QUERY    "Nummer des zu l"oe"schenden Jobs (%1d..%1d, 0=Alle): "
+#define JOBLOE_WAIT_QUERY  "L"oe"sche nur wartende Jobs "NEIN_JA_TXT
+#define JOBLOE_LOE1_TXT    "Opt-Job-Liste komplett gel"oe"scht."
+#define JOBLOE_LOE2_TXT    "Alle unbearbeiteten Opt-Jobs deaktiviert."
+#define JOBLOE_AKT3_TXT    "Aktiven Opt-Job l"oe"schen? "NEIN_JA_TXT
+#define JOBLOE_AKT4_TXT    "Generation des aktiven Jobs beenden und Ergebnisse retten? "NEIN_JA_TXT
+#define JOBLOE_LOE3_TXT    "Opt-Job %d deaktiviert.\n"
+#define JOBLOE_LOE4_TXT    "Opt-Job %d bereits abgearbeitet.\n"
+#define JOBLOE_FIN_TXT     "Opt-Job %d durch Benutzereingriff vorzeitig beendet."
+#define JOBLOE_ABORT_TXT   "Opt-Job %d durch Benutzereingriff abgebrochen!"
+#define AKSAV_HDR_TXT      "           Rettung einzelner Ergebnis-Chromosome:"
+#define SAV_FKT_NIX_TXT    "Chromosomrettung bei aktivem Job nicht m"oe"glich!"
+#define AKSAV_NIXDA_TXT    "Bisher keine Evolution oder Population gel"oe"scht!"
+#define AKSAV_INFO1_TXT    "Man kann ein Chromosom durch Angabe seiner lfd.Nr. retten oder"
+#define AKSAV_INFO2_TXT    "die Population durchscannen und dabei Chromosome ausw"ae"hlen."
+#define AKSAV_SCANQUERY    "Population durchscannen? "JA_NEIN_TXT
+#define AKSAV_STRTQUERY    "Ab welcher Startnummer soll gesucht werden? (1..%d): "
+#define AKSAV_INFO3_TXT    "Die Suche kann mit ESC abgebrochen werden."
+#define AKSAV_DONE_HDR     "Bisher noch nicht gerettete Chromosome der Population:"
+#define AKSAV_AK_QUERY     "Chromosom (Fitness = %7.1f  G"ue"te = %2d  lfd.Nr =%3d) retten? %s"
+#define AKSAV_WUERG_TXT    "Rettung abgebrochen."
+#define AKSAV_ENDE_TXT     "Populationsende erreicht. Rettung beendet."
+#define AKSAV_IDX_QUERY    "Lfd.Nr. des zu rettenden Chromosoms (1..%d): "
+#define BESTSAV_HDR_TXT    "          Rettung der besten Ergebnis-Chromosome:"
+#define BESTSAV_ANZ_TXT    "Anzahl der (maximal) zu rettenden Chromosome (1..%d) [%d]: "
+#define BESTSAV_ERG_TXT    "Es wurden %d Chromosome gerettet:"
+#define EPOPLOE_HDR_TXT    "             Entwicklungs-Population l"oe"schen:"
+#define EPOPLOE_NIX_TXT    "Entwicklungspopulation bei aktivem Job nicht l"oe"schbar!"
+#define EPOPLOE_OK_TXT     "Entwicklungspopulation gel"oe"scht."
+#define EVOPAR_HDR_TXT     "  Vorgabe von Defaultwerten f"ue"r Optimierungs-Parameter:"
+#define ADI_LANGSAM_CH     'l'
+#define ADI_MITTEL_CH      'm'
+#define ADI_SCHNELL_CH     's'
+
+#define OPT_VERF_TXT       "OptVerfahren:  GLEAM  SMA  ASMA  M=AMMA  LSV      [%c]"
+#define PSIZE_QUERY_TXT    "Populationsgr"oe""szt"e                   (%2d..%5d) [%4d]"
+#ifdef MIT_LSV
+  #define INIT_STRAT_TXT   "Init: Neu  Best  Mix  +=B+N  LSV  #=LSV+B  File   [%c]"
+#else /* Kein MIT_LSV */
+  #define INIT_STRAT_TXT   "Init: Neu  Best  Mix  +=B+N  File                 [%c]"
+#endif /* Kein MIT_LSV */
+#define INIT_LSV_TXT       "Init: Neu  Best  Chromosom                        [%c]"
+#define AK_NGO_TXT         "Strategieparameter: Chromosome mit Fitness > 0  [%3ld]: "
+#define NO_ESS_PARAM_TXT   "(fester Wert bei Nutzung der externen Simulationsdienste)"
+#define AK_MIND_N_TXT      "Strategieparameter: Mindest Fitness          [%6ld]: "
+#define AK_BEST_ANZ_TXT    "Strategieparameter: Anzahl bester Chromosome    [%3ld]: "
+#define ANZ_LSV_N_TXT      "Strategieparameter: Anzahl LSV-opt. Chromosomee [%3ld]: "
+#define ZGEN_INIT_Q        "Mit Init. des Zufallszahlengenerators (ZufG) ?  "
+#define SURVIVAL_TXT       "Akzeptanzregel: 1=LL 2=Always 3=LLES 4=AlwES 5=BP [%c]"
+#define RANK_PAR_TXT       "Ranking-Parameter                   (1.0..2.0) [%4.2f]"
+#define XO_HD_TXT          "XO- und Reko-Mindesthammingabstand in "PROZ"     [%7g]"
+#define EVO_SAVE_TXT       "Sicherungsrate der Population in Gen.    [%10d]: "
+#define ERG_AK_QUERY_TXT   "(Max) Anzahl der Ergebnis-Chromosome (0..%4d) [%4d]: "
+#define OPT_ENDKRIT_TXT    "                     Abbruchvorgaben:"
+#define ZNOTE_TXT          "Ziel-Fitness                                 [%6lu]: "
+#define MAX_GEN_TXT        "Maximale Anzahl an Generationen               [%5d]: "
+#define MAX_NO_ACC_TXT     "Max.Gen.Anzahl ohne Offspring-Akzeptanz (GAk) [%5d]: "
+#define MAX_NO_DEME_TXT    "Max.Gen.Anzahl ohne Deme-Verbesserung   (GDV) [%5d]: "
+#define JOB_ZEIT_TXT       "Maximale Jobzeit in Minuten   [%s = %6g min]: "
+#define EVAL_MAX_TXT       "Maximale Anzahl der Evaluationen         [%10ld]: "
+#define LAMARCK_PAR_TXT    "Chromosom-Update-Anteil (Lamarck-Anteil) in "PROZ"  [%4g]"
+#define LSV_ALL_OFFSPRQ    "(Adaptiv-)alle Nachkommen mit LSV optimieren?   "
+#define POP_INIT_LSV_TXT   "Initialisierung der Startpopulation mit: %s\n"
+#define GLEAM_CHAR         'G'
+#define GLEAM_SMA_CHAR     'S'
+#define GLEAM_ASMA_CHAR    'A'
+#define GLEAM_AMMA_CHAR    'M'
+#define LSV_CHAR           'L'
+#define NEU_INIT_CHAR      'N'
+#define BEST_INIT_CHAR     'B'
+#define MIX_INIT_CHAR      'M'
+#define BN_INIT_CHAR       '+'
+#define LSV_N_INIT_CHAR    'L'
+#define LSV_B_INIT_CHAR    '#'
+#define FILE_INIT_CHAR     'F'
+#define CHR_INIT_CHAR      'C'
+#define AK_UNVERAENDERT    "Altes Chromosom bleibt unverändert."
+#define AK_OPT_STORED      "Neues Chromosom verbessert und gespeichert, falls im Job vorgesehen."
+#define ORG_AK_STORED      "Neues Chromosom unver"ae"ndert gespeichert, falls im Job vorgesehen."
+#define LSV_NIX_AK_SAV     "Bei LSV-Optimierung Funktion nicht verf"ue"gbar."
+
+#define EVOPARAM_OPT       "OptStrat"
+#define EVOPARAM_DEME      "NachbGr"oe""szt"e"
+#define EVOPARAM_SURV      "AcceptRule"
+#define EVOPARAM_RANK      "Rank-Param"
+#define EVOPARAM_HAM       "HammDistXO"
+#define EVOPARAM_LAMARCK   "LamarckPar"
+#define EVOPARAM_GENREPPAR "GenRepRate"
+#define EVOPARAM_PHEREPPAR "Ph"ae"noRep  "
+#define EVOPARAM_LSV_AUSW  "LSV-Ausw  "
+#define EVOPARAM_LSV_PARAM "LSV-Params"
+#define EVOPARAM_LSV_VERT  "LSVIniVert"
+#define EVOPARAM_ADA_SPEED "AdaptSpeed"
+#define EVOPARAM_N_KLASSE  "FitnKlass."
+#define EVOPARAM_ADAPT_ALT "AdaptAlt"
+#define EVOPARAM_NIX_LSV   "LSV-AusLim"
+#define EVOPARAM_POPMOD    "PopModell"
+
+#define OPTSTRAT_EVO       "GLEAM"
+#define OPTSTRAT_SMA       "GLEAM-SMA"
+#define OPTSTRAT_ASMA      "GLEAM-ASMA"
+#define OPTSTRAT_AMMA      "GLEAM-AMMA"
+#define OPTSTRAT_LSV       "LSV"
+#define OPTPAR_LSV_TXT     "                        LSV %s:"
+#define OPTSTRAT_HDR       "    Auswahl eines neuen Default-Optimierungsverfahrens"
+#define OPTSTRAT_ANZG      "Aktuelles Default-Optimierungsverfahren: "
+#define EVOPAR_DSIZFRAG    "Nachbarschaftsgr"oe""szt"e (%d..%d) [%d]: "
+#define EVOPAR_DSIZ_F1     "Nur gerade Werte erlaubt!"
+#define EVOPAR_SURV_HDR    "        Auswahl einer neuen Default-Akzeptanzregel"
+#define EVOPAR_SURVANZG    "Aktuelle Default-Akzeptanzregel: "
+#define EVOPAR_SURV_BP     "BetParent"
+#define EVOPAR_SURVLLES    "LocLeastES"
+#define EVOPAR_SURVAAES    "AlwaysES"
+#define EVOPAR_SURV_LL     "LocalLeast"
+#define EVOPAR_SURV_AA     "Always"
+#define EVOPAR_RANKFRAG    "Rankingparameter-Default der Paarbildung (1..2) [%4.2f]: "
+#define EVOPAR_XO_HAM_Q    "Mindest-Hammingabstand zweier Chromosome f"ue"r Reko/XO in "PROZ" [%g]: "
+#define EVOPAR_PHAENO_Q    "Mit ph"ae"notypischer Reparatur"
+#define EVOPAR_LAMA_Q      "Lamarckrate (Chromosom-Updaterate bei erfolgreichem LSV) in "PROZ" [%g]: "
+#define EVOPAR_AMMA_LSV_P  "Vorgabe der initialen Wahrscheinlichkeiten der aktiven LSVs:"
+#define EVOPAR_AMMA_NEU_P  "Neue Wahrscheinlichkeiten wurden "ue"bernommen."
+#define EVOPAR_AMMA_P_ERR1 "Abbruch: Alte Wahrscheinlichkeiten sind weiter g"ue"ltig."  
+#define EVOPAR_AMMA_P_ERR2 "Wertesumme = %g < 1.0! Alte Wahrscheinlichkeiten bleiben g"ue"ltig."
+#define EVOPAR_AMMA_SPEED  "Parametrierung des LSVs \"%s\":"
+#define EVOPAR_AMMA_ERR1   "Das LSV konnte nicht neu parametriert werden!"
+#define EVOPAR_AMMA_ERR2   "Das LSV \"%s\" hat keine Steuerparameter."
+#define EVOPAR_AMMA_SPEED1 "LSV-Adaptionsgeschw. (%c, %c, %c)     [%c]: "
+#define EVOPAR_AMMA_SPEED2 "Level-Adaptionsgeschw. (%c, %c, %c)   [%c]: "
+#define EVOPAR_AMMA_NKL    "Fitnessklassen-Parametrierung: Standard (1,3,4,5) sonst manuel [%d]: "
+#define EVOPAR_AMMA_NKLANZ "Anzahl der Fitnessklassen (1..%d) [%d]: "
+#define EVOPAR_AMMA_NKLWRT "Fitnesswert der %d.Klasse (%5g..%g) [%5g]: " 
+#define EVOPAR_AMMA_ALT    "Anteil der alten Verteilung an der neuen in %% [%g]: "
+#define EVOPAR_A_FAST_CHAR 'S'
+#define EVOPAR_A_MED_CHAR  'M'
+#define EVOPAR_A_SLOW_CHAR 'L'
+#define EVOPAR_AMMA_NIXLIM "                           Limit zur LSV-Abschaltung\n\n"
+#define EVOPAR_LSVOFF_TXT1 "Wenn die neu berechnete Ausf"ue"hrungswahrscheinlichkeit eines LSVs \"Plsv\" unter \n"
+#define EVOPAR_LSVOFF_TXT2 "den anf"ae"nglichen Grenzwert von %g"PROZ" sinkt, wird dies mitgez"ae"hlt. Plsv wird auf %g%%\n"
+#define EVOPAR_LSVOFF_TXT3 "angehoben, falls auch dieser Wert unterschritten wird. Erst bei einer %d-maligen\n"
+#define EVOPAR_LSVOFF_TXT4 "konsekutiven Unterschreitung des Grenzwertes wird das LSV endg"ue"ltig abgeschaltet.\n\n"
+#define EVOPAR_LSVOFF_QUERY "Maximale Anzahl f"ue"r konsekutive Plsv-Unterschreitungen (1..%d) [%d]: "
+
+
+/* ---------------------------- Texte des Moduls: ls_koppl: --------------------------- */
+#define IPAR_ZU_GROSS      "Int-Parameter zu gross: Max=%d Ist=%d\n"
+#define IPAR_ZU_KLEIN      "Int-Parameter zu klein: Min=%d Ist=%d\n"
+#define RPAR_ZU_GROSS      "Real-Parameter zu gross: Max=%g Ist=%g\n"
+#define RPAR_ZU_KLEIN      "Real-Parameter zu klein: Min=%g Ist=%g\n"
+
+
+/* ---------------------------- Texte des Moduls: lsv_steu: --------------------------- */
+#define ROS_LONG_NAME_TXT  "Rosenbrock-Verfahren"
+#define ROS_MENUE_NAME_TXT "Rosenbrock"
+#define ROS_JOBLI_NAME_TXT " Ros"
+#define ROS_PAR1_NAME_TXT  "R-Iterationslimit"
+#define ROS_PAR1_JOBLI_1   "    Max-"
+#define ROS_PAR1_JOBLI_2   "    Iter"
+#define ROS_PAR2_NAME_TXT  "Abbruchschranke"
+#define ROS_PAR2_JOBLI_1   " Rosenbr"
+#define ROS_PAR2_JOBLI_2   "   Limit"
+#define ROS_PAR3_NAME_TXT  "initiale Schrittweite"
+#define ROS_PAR3_JOBLI_1   " Rosenbr"
+#define ROS_PAR3_JOBLI_2   " StepSiz"
+#define COMPL_LONG_NAME    "Complex-Algorithmus"
+#define COMPL_MENUE_NAME   "ComplexAlg"
+#define COMPL_JOBLI_NAME   "Comp"
+#define COMPL_PAR1_NAME    "C-Iterationslimit"
+#define COMPL_PAR1_JOBLI_1 "    Max-"
+#define COMPL_PAR1_JOBLI_2 "    Iter"
+
+
+

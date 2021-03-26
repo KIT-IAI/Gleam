@@ -1,0 +1,244 @@
+;==================== Fehlertexte ==================== Stand: 10.07.19
+ftext_d.txt                                                      Linux
+;234567890123456789012345678901234567890123456789012345678901234567890
+;========1=========2=========3=========4=========5=========6=========7
+Name zu lang bei Gen/Aktion %ld (Max=%ld)
+Chromosom erwartet!
+Segmentstruktur fehlerhaft!
+Ungültiges Gen/Aktion: %ld
+Zu wenig Speicher für %ld Gen-/Aktionstypen!
+Ungültiger "ref_typ": %ld
+Ungültiger Kettenart: %ld
+Ungültige Chromosomenlänge: Ist=%ld Soll=%ld
+Zu wenig Speicher für %ld Kriterien/StrFkt!
+Kriterium %ld: Ungültige %sfunktion: %ld. Auf "undefiniert" gesetzt.
+Falscher Generierungs-Code: %ld
+Ungültiger Header-Code: %ld
+Falscher Gen/Aktions-Code: %ld
+Ungültige Kriterien-Nummer: %ld
+Unkompatibles MOD-File! Ident: %s
+Falsche genetische Operatoren-Anzahl/-Index: Ist=%ld Max=%ld
+Falscher Mutationsalgorithmus (%ld) bei MutOp %ld
+Falsche Parameteranzahl: Ist=%ld Max=%ld
+Zu wenig Speicher für %ld verschiedene Segmentlängen!
+Ungültige Initialisierungsstrategie: %ld
+DatenFehler bei %sfunktion des Kriteriums %ld
+Basis-AK %ld/%ld nicht gefunden!
+Unkopierbares Chromosom. Header-Code: %ld
+Keine Programm-Id im EXP-File: "%s"
+Ungültige "güte": %ld
+Kein Speicher freigegeben!
+Speicher von %ld Chromosomen freigegeben.
+MOD-File-Fehler. %ld statt %ld Werte gelesen.
+MOD-File: Fehler bei %s
+Zugriff auf NIL-Pointer.
+Mehr aktive Kriterien (%ld) als benutzte (%ld)!
+Nicht genug Speicher zum Anlegen von: %s
+Abschnitt %ld nicht gefunden!
+Aktion kein "activity_act". Code: %ld
+Kein Name bei Gen/Aktion %ld. Aufruf: %ld
+Chromosom %s nicht auffindbar.
+Chromosomelement %ld nicht gefunden!
+Initialisierungs-Fehler!
+Item nicht gefunden! Code=%ld
+Job-Abbruch, da kein Speicher reorganisierbar!
+Segmentende nicht gefunden!
+Keine Unterkette vorhanden!
+Populationsgröße von %ld zu groß! Max=%ld
+Restaurierungsfehler! Chromosomtyp-Code=%ld
+BEW-File-Fehler. %ld statt %ld Werte gelesen. 
+Ungleiche Chromosomlängen: %ld, %ld
+Zu viele Abschnitte: Ist=%ld Max=%ld
+SimuModell-Root-Directory (SMRD) nicht verfügbar!
+SMRD: %s
+Zuviele %s. Maximal %ld anzeigbar.
+Textpuffer: Ungültige Zeilenummer: %ld (1..%ld)
+Bei Gen/Aktion %ld und Parameter %ld ist ParUG > ParOG! 
+Datei existiert nicht: "%s"
+%s
+Zu wenig Speicher für %ld Simulatorergebnisse!
+I/O-Fehler bei Chromosomelement: %ld
+Aktuell gelesene %s gelöscht!
+Chromosomen-Laden: Zugehörige Sub-AK nicht gefunden!
+%ld der geladenen Chromosomen wurden gelöscht!
+Fehler beim %s-Laden: Falsche Chromosomlänge!
+Fehler beim %s-Laden: Segmentdaten fehlerhaft!
+%s-Laden: Kein Speicher oder Header-Fehler!
+%s-Laden: Unzulässiger Kopf! Code=%ld
+Chromosomen-Laden: Ungültiger Kopf! Code=%ld
+Chromosomen-Laden: Chromosomenspeicher-Recovery fehlerhaft!
+Unbekannte Anwendung: %s
+Funktion noch nicht implementiert!
+Segment %ld nicht gefunden!
+Chromosomentyp %ld bei GeneticRepair für 2 Chromosomen unzulässig!
+Unbekannte Anwendung! Code = %ld
+Chromosomenlänge %ld kleiner als Gen/Aktionsanzahl %ld!
+%ld SimuRohDaten, aber %ld Bewertungsdaten!
+%s
+ExtSimu: %s
+Externer Simulator wurde %s.
+TSK-File-Fehler. %ld statt %ld Werte gelesen. 
+Unkompatibles TSK-File! Ident: "%s"
+TSK: Unkompatible Anwendung: "%s"
+Zu wenig Speicher für TSK-Daten!
+TSK: Fehler beim Einlesen von Joints.
+TSK: Schreibfehler bei "%s"-Daten.
+RobSim meldet inkompatible TSK-Daten.
+%s
+Speicher falsch konfiguriert: ElementSize=%ld DescrSize=%ld
+Aktuelles Directory kann nicht ermittelt werden!
+Kein Directory: "%s"
+EVO-File-Fehler. %ld statt %ld Werte gelesen.
+EVO-File: unerwartetes EOF! 
+Unkompatibles EVO-File! Ident: "%s"
+Fehler beim Sichern ins Evo-Scratchfile!
+Nur %ld AKs im Evo-Scratchfile! Soll=%ld
+Abbruch%s: Simulator-Crash!
+Fehler bei LSV-Optimierung!
+Abbruch%s bei Mutation %ld: AK konnte nicht kopiert werden.
+Abbruch%s: Crash durch ungültigen OpCode!
+EvoCrash: Operation:%ld Operator %ld
+Abbruch%s: GenOperator-Crash!
+Abbruch%s: Offspring! Op=%ld
+Falscher OpCode %ld bei %s 
+Logfile-Ausgabe bei Jobabarbeitung fehlerhaft!
+Verfügbarer Speicher: %ld kB (%s MB).
+Unbekanntes LSV! Code=%ld
+Falsche Anzahl Zusatz-Files: Ist=%ld Max=%ld
+Anzahl der Anwendungsfiles inkonsistent! MOD:%ld EXP:%ld
+Altes Gen/Aktions-Modell weiterhin gültig: "%s"
+MOD-File-Fehler! Gen/Aktions-Modelldaten inkonsistent!
+Alte Bewertung weiterhin gültig: "%s"
+BEW-File-Fehler! Bewertungs-Daten inkonsistent!
+Alte Programmparameter weiterhin gültig: "%s"
+TSK-File-Fehler! Aufgaben-Daten inkonsistent!
+Alte Evolutionsparameter weiterhin gültig: "%s"
+EVO-File-Fehler! Evo-Parameter inkonsistent!
+Init-Fehler im Simulator-Package (Speicher?)
+Externer Simulator nicht verfügbar!
+Fehler in "%s"-Datei!
+Unkompatibles EXP-File! Ident: "%s"
+Kein Zugriff auf Modelle des ext. Simulators!
+Prüfe Environment-Variable: "%s"
+Statt %ld nur %ld Aktionen/Gene gelesen!
+Zu viele Gen/Aktionstypen: %ld. Maximum: %ld
+Unbekannter Bezeichner: %s
+Fehler im %s-File-Header!
+Fehler in Appl-File "%s". Info: %ld
+Fehler in Appl-File "%s". Teil: %ld
+Fehler im %s-File!
+Schreibfehler bei File: %s
+Datei nicht offen: "%s"
+Anwendung nicht eingebunden: %s
+Interner Softwarefehler! Info: %ld %ld
+Ohne vorherige Simulation keine Ergebnisse!
+Unbekannter externer Simulator: %s
+Externer Simulator konnte nicht %s werden!
+Unbekannter externer Simulator! Code: %ld
+Bewertungs/Straffunktion noch nicht definiert!
+Kein Hammingabstand wegen Nil-Pointer.
+Fehler in Funktion "rotangle"!
+Zielchromosom muss segmentiert sein!
+Bezeichner zu lang bei %ld.%s-Parameter!
+Alle generierten Chromosomen unbewertbar/unplausibel!
+Dynamische Chromosomen können nicht den Start-Complex bilden!
+Nicht im TSK-File: "%s"
+Falsche LSV-Anzahl im MOD-File: %ld  LSVs=%ld
+Genmodell erwartet nicht implementierte LSVs/Heuristiken
+Falscher LSV-Index im MOD-File: %ld Max=%ld
+Genmodell aktiviert keine LSVs. Nur GLEAM-Jobs!
+Vom Genmodell erwartetes LSV %ld nicht implementiert!
+Summe der LSV-Wahrscheinlichkeiten: %ld
+Adaptionsgeschwindigkeit von 10 statt %ld aktiven LSVs genommen.
+Zuwenig Aufrufparameter: Ist=%ld Min=%ld
+Unzulässiger Wert der "%s"-Option/Parameter: %ld
+Keine TSK-File-Angabe oder Aufrufoption für %s
+Unbekannte Programmoption: "%s"
+Geno- und phaenotyische Reparatur gleichzeitig?
+%s Optimierungsverfahren! Index=%ld
+Dieses Programm implementiert nur GLEAM! %s
+%s unvertraeglich mit dynamischen Chromosomen!
+Restaurierte unsimuliertes Chromosom nicht simulierbar!
+Matlab-Variable unlesbar: %s
+CEC-MBF: Kein IniFile in "cec_input_data".
+Funktion nicht in dieser Version enthalten!
+Unzulässiger Parameterwert der Option(en): %s
+Abbruch%s: SimuListIdx=%ld
+Präzision bei Gen/Aktion %ld auf %ld verändert.
+TOP-Fileangabe ignoriert: %s
+Job verlangt nicht implementierte/aktivierte LSVs!
+Simulationswert bei Kriterium "%s" liegt außerhalb des Anzeigebereichs.
+Erfüllungswert bei Kriterium "%s" ist außerhalb des Anzeigebereichs.
+Fitnessgewichte ergeben %s anstelle von 100%!
+Straf- und Fitnessfunktionen des Kriterium %ld passen nicht zueinander: Beide sollten entweder steigend oder fallend sein! 
+Kriterium %ld: Zu einer exponentiellen Bewertungsfunktion passt keine Straffunktion!
+Für Kriterium %ld  wurde noch keine %sfunktion festgelegt.
+Die Daten des zuletzt geänderten Kriteriums sind inkonsistent.
+%ld Zeilen mit Simulatorergebnissen konnten nicht gezeigt werden.
+Kriterium %ld: Ungültige %sfunktion: %ld
+Die höchste Priorität der Straffunktionen übersteigt mit %ld die der Bewertungsfunktionen (%ld).
+Prioritätsklassen auf %ld reduziert. %s
+Es existieren weiterhin ungenutzte Prioritätsklassen.
+%ld unbekannte Aufrufparameter: %s
+Unbekanntes Optimierungsverfahren: "%s"
+Unbekannte Initialisierungsstrategie ignoriert: "%s"
+TSK-File-Vorgabe oder Default des Optimierungsverfahrens "%s" ignoriert.
+Ein Hamming-Distanz zur Steuerung von Rekombination und Crossover von %ld ist wahrscheinlich zu groß!
+Unbekannte Akzeptanzregel für Nachkommen ignoriert: %s
+Keine generationsweise Erfassung von Statistikdaten möglich, wenn diese generell abgeschaltet ist.
+Falscher Parameterindex! Ist=%ld  Max=%ld
+Parametername "%s" ist bereits registriert!
+Ungültiger Datentyp bei Parameter "%s"!
+Parameter "%s" nicht gefunden!
+Unbekannte Adaptionsgeschwindigkeit: "%s"
+Kommando "%s" des externen Simulators nicht aufrufbar/bekannt.
+Parameter "%s" hat keinen Wert.
+Ein Wert von %ld ist ausserhalb der Grenzen von Parameter "%s"!
+Fehlerhafte Zeile in Datei: "%s"
+Inaktives LSV angegeben! Index: %ld
+Ungültige(r) Filebezeichner "%s" von fehlerhaft geladenen Datei(en) im EXP-File. File editieren!
+Eine Populationsgrößenvorgabe ist bei LSVs nicht sinnvoll! Der Wert beträgt ist 1.
+TSK-Filevorgabe zur %sen Reparatur nicht umsetzbar, da nicht implementiert!
+Ganze Zahl erwartet! Stattdessen gelesen: %s
+Falsche %s. Soll: %ld Ist: %ld
+Fehler im Kopf von: %s. Siehe Logfile.
+Fehler bei Ausführung eines POST requests: %s
+Fehler bei Ausführung eines GET requests: %s
+Fehler bei der Ausführung einer curl-Funktion: %s
+Fehler beim Lesen von: %s
+Fehler beim Schreiben von: %s
+Fehler beim Anlegen einer Chromosomenliste: %s
+TimeOut nach %ld Sekunden beim Lesen einer %s
+Externer Simulationsdienst liefert leere Modellliste!
+Zuviele %s. Ist: %ld Maximum: %ld
+Ergebnisse für Chromosom %ld/%ld bereits erhalten!
+Unzulässige Phase der ObtJob-Bearbeitung. Code: %ld
+Ungültige %s der Simulationsdienste: %ld
+Fehler beim Senden der Chromosomenliste: %s
+Fehler beim Empfang einer Ergebnisliste: %s
+Fehler beim Jobabbruch: %s
+Korrektur des Modellnamens: %s.
+Fehlende Angaben bei Aufrufparameter: %s
+Environment-Variable %s nicht gesetzt!
+Die Matpower-Case-Datei %s existiert nicht.
+Das Simulationsergebnis wurde nicht in ein case-File extrahiert!  
+Keine Rechenroutine für den Powerflow (pf bzw. opf) im MOD-File angegeben. Wurde das MOD-File mit dem Modfile-Generator erzeugt?
+Fehlende oder fehlerhafte Begrenzung des LSV-Parameterteils bei: "%s"
+Unerwartete %s-Kennung gefunden. Möglicherweise fehlt die LSV-Kennung im Kopf!
+Fehler in Chromosomenliste beim %ld.Chromosom: %s
+Zu wenig Speicher zum Anlegen einer Ergebnisliste: %s
+Keine Topologiedatei: %s
+TOP-File-Fehler! Topologie inkonsistent!
+TOP-File-Fehler. %d statt %d Werte gelesen.
+Kein Zugriff auf ausgewählte Chromosome!
+Fehler bei der Bildung der Startpopulation!
+Parameter "%s" des Gens mit dem Code %ld ausserhalb der Grenzen. Wert = %ld
+Mehr Bewertungskriterien (%ld) als Simulationsergebnisse (%ld)!
+F233: unused
+F234: unused
+F235: unused
+F236: unused
+F237: unused
+F238: unused
+F239: unused
+F240: unused

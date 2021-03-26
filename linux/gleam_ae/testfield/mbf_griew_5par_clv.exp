@@ -1,0 +1,9 @@
+# ================================ Experimentbeschreibung ================================
+GLEAM/AE
+# erzeugt am Wed, 01.03.2017 12:11:40
+# ----------------------------------------------------------------------------------------
+Genmodell                 = mbf_griew_5par_lsv.mod
+Bewertung                 = mbf_griew_5par.bew
+Programmparameter         = mbf_griew_5par_clv.tsk
+Evolutionsparameter       = mbf_wpar.evo
+Chromosomenspeicher       = 

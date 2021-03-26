@@ -1,0 +1,27 @@
+Bewertungsbeschreibung fuer GLEAM/AE               Wed, 19.08.2020 15:15:31
+===========================================================================
+  1   1       Anzahl der aktiven und benutzten Kriterien von insgesamt 16.
+Griewank-Fkt.-Wert :
+ 
+ 1  1.000000000000e+05  1.000000000000e-04
+3  1.000000000000e+05 1.000000000000e+04 1.000000000000e+03 1.000000000000e+05   1
+   1.000000000000e-06 5.000000000000e+02 2.000000000000e+03 1.797693134862e+308   1.000000000000e+01
+------------ Straffunktionen: ------------ 
+Funktionswert      :
+!
+ 0  0.000000000000e+00  0.000000000000e+00
+0  0.000000000000e+00 1.000000000000e+04 9.000000000000e+04 1.000000000000e+05   1
+   0.000000000000e+00 1.000000000000e+00 9.000000000000e+00 1.000000000000e+01   0.000000000000e+00
+=============== Do not remove this line! =================
+Daten pro Eintrag (KRITERIUMS_TYP):
+  Name mit ":" (max 19 Zeichen)
+  Einheit: Kriterien: Standard-Einheitsbezeichner (" "=leer).
+           StrafFkt:  Einheitsbezeichner bei Bereichsueberschreitung:
+                         <flag><blank><bezeichner>
+                      flag = !: leer
+                             <: 2.Ausgabe des 1000-fachen Werts
+                             >: 2.Ausgabe des 1/1000 des Werts
+                             %: 2.Ausgabe im G-Format, wenn Wert < 1.0 oder Wert >= 100000
+  klasse  max_note  erfuellungs_wert
+  bew_alg   nstart ns1 ns2 nend   nmax_cont
+            xstart xs1 xs2 xend   xdrittel

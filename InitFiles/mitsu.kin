@@ -1,0 +1,12 @@
+Kinematik des Robotermodells in Datei "STOLPER.MOD" vom 30.8.1991 :
+ 
+Achse i : Richtung / Laenge / Breite / Hoehe /   Art  / Rotationsachse
+ 
+Achse 1 :   Z  /  18  /  5  /  5  /  rot  /  Z
+Achse 2 :   Z  /  22  /  3  /  3  /  rot  /  Y
+Achse 3 :   Z  /  16  /  2  /  2  /  rot  /  Y
+Achse 4 :   Z  /  13  /  1  /  1  /  rot  /  Y
+Achse 5 :   Z  /  0  /  0  /  0  /  rot  /  Z
+Ende
+ 
+ 

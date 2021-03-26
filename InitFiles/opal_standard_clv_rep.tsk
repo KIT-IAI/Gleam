@@ -1,0 +1,20 @@
+# -------------------------- Programmparameter Datei (TSK file) --------------------------
+GLEAM/AE  OPAL/V
+# erzeugt am Wed, 03.04.2017
+# ----------------------------------------------------------------------------------------
+Soll-SchichtspitzenMax          =    9.0
+Mit phaenotypischer Reparatur   = ja
+# ----------------------------------------------------------------------------------------
+Optimierungsverfahren               = gleam   # GLEAM, SMA, ASMA, AMMA, LSV  optional
+Populationsgroesse                  = 1800    # optional
+InitStrategie f.die Startpopulation =  neu    # neu, best, mix, bestNeu, lsvNeu, lsvBest
+InitStrategie-Parameter             =    0    # required for mix, bestNeu, lsvNeu, lsvBest
+Akzeptanzregel fuer Nachkommen      = localLeast-ES  # always, localLeast, betterParent
+Ranking-Parameter                   = 1.4     # optional
+Mindesthammingabstand f.XO/Reko [%] = 0.1     # optional
+# ----------------------------------------------------------------------------------------
+Maximale Laufzeit [sec]             = 1800        # 30 Minuten Stunden
+Maximale Generationsanzahl          = 1000        #    
+Max. Gen. ohne Akzeptanz im Deme    =  100        # GAk
+Max. Gen. ohne Deme-Verbesserung    =  250        # GDV
+Mindest-Zielfitness                 = 100000.0    #    

@@ -1,0 +1,9 @@
+# -------------------------- Programmparameter Datei (TSK file) --------------------------
+GLEAM/AE  MathFkt 
+# erzeugt am Wed, 16.11.2016
+# ----------------------------------------------------------------------------------------
+Drehwinkel in Grad        = 30.0
+# --------------------------------------------------------------------------------
+Populationsgroesse                  =  90
+Maximale Laufzeit [sec]             =  180    
+Maximale Generationsanzahl          = 2000

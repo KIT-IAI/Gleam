@@ -1,0 +1,44 @@
+# -------------------------- Programmparameter Datei (TSK file) --------------------------
+GLEAM/AE  LESAK/Plus
+# erzeugt am Wed, 18.01.2017
+# ----------------------------------------------------------------------------------------
+Mit Mitsubishi R500                 = 1
+Mit Kollisionstest                  = 1
+Mit Anschlagtest                    = 1
+Mit Abwertung bei Anschlag          = 1
+Achsanzahl                          = 5
+Simulatortakt in Sekunden           = 0.1
+# -----------------------------------------------
+Mit Init. d.Zufallszahlengenerators = 1
+Mit Ergebnis-Simulation             = 1    # nur fuer die Engine (Command Line Version)
+Mit detaliertem Logging             = 1    # nur fuer die Engine (Command Line Version)
+Mit Rettung der ErgebnisChromosomen = 0    # nur fuer die Engine (Command Line Version)
+Mit Tests auf Jobabbruch            = 1    # nur fuer die Engine (Command Line Version)
+Abbruch-Testrate [Paarungen]        = 250  # nur fuer die Engine (Command Line Version)
+# -----------------------------------------------
+Optimierungsverfahren               = GLEAM 
+Stellenanzahl der (Simu)-Parameter  =    7
+Populationsgroesse                  =  150
+InitStrategie f.die Startpopulation = Neu
+InitStrategie-Parameter             =    0   
+Akzeptanzregel fuer Nachkommen      = localLeast-ES    
+Nachbarschaftsgroesse               =    8             # (Pop|Deme): (5|4) (10|6) (>=20|8)
+Mindesthammingabstand f.XO/Reko [%] =    0.1
+
+Mindest-Zielfitness                 = 100000.0
+Maximale Laufzeit [sec]             =  180    
+Maximale Generationsanzahl          = 2000
+Max. Gen. ohne Akzeptanz im Deme    =  250    # GAk
+Max. Gen. ohne Deme-Verbesserung    =  400    # GDV
+# ------------------------------------------------------------------------------------
+#! ------------- Start- und Zielwerte (Joints) fuer die LESAK-Anwendung: -------------
+ 0 0 0 0 
+ 0 0 0 0 
+ 0 0 0 0 
+ 0 0 0 0 
+
+ -2.35619415 0.785398 0.785398 1.5707961
+ 0 0 0 0 
+ 0 0 0 0 
+ 0 0 0 0 
+

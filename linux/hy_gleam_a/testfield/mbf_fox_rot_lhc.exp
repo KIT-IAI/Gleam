@@ -1,0 +1,8 @@
+# ================================  Experiment File List  ================================
+GLEAM/AE
+# written on Tue, 01.09.2020 11:37:11
+# ------------------------------- List of Standard Files: --------------------------------
+Gene model                          = mbf_fox_lhc.mod
+Evaluation                          = mbf_fox_e.bew
+Program parameters                  = mbf_fox_rot_lhc.tsk
+Evolution parameters                = mbf_wpar_e.evo

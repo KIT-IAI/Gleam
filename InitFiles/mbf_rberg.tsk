@@ -1,0 +1,16 @@
+# -------------------------- Program Parameter File (TSK file) ---------------------------
+GLEAM/AE  MathFkt
+# written on Wed, 21.10.2020 09:46:48
+# ----------------------------------------------------------------------------------------
+optimization procedure              =   ASMA   # (2)
+population size                     =     10
+deme size                           =      6
+init. strategy for start population = new
+init. strategy parameter            =      0   
+minimal hamming dist.f.XO/Reco [%]  =      0.1
+ranking parameter                   =      1.5  # 1.0 - 2.0 (selective pressure: min - max)
+acceptance rule for offspring       = localLeast-ES
+# -------------------------------------------------------------
+LHC (Local Hill Climber) index      =      0
+LHC iteration limit                 =   2000
+LHC termination threshold           = 1e-06

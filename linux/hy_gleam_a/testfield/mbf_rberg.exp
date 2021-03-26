@@ -1,0 +1,8 @@
+# ================================  Experiment File List  ================================
+GLEAM/AE
+# written on Tue, 01.09.2020 11:37:11
+# ------------------------------- List of Standard Files: --------------------------------
+Gene model                          = mbf_rberg.mod
+Evaluation                          = mbf_rberg.bew
+Program parameters                  = mbf_rberg.tsk
+Evolution parameters                = mbf_vpar.evo

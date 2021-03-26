@@ -1,0 +1,15 @@
+# -------------------------- Program Parameter File (TSK file) ---------------------------
+GLEAM/AE  MathFkt
+# written on Tue, 01.09.2020 11:43:35
+# ----------------------------------------------------------------------------------------
+optimization procedure              =    LHC   # (4)
+init. strategy for start population =    new
+init. strategy parameter            =      0
+LHC (Local Hill Climber) index      =      0   # Rosenbrock procedure
+population size                     =     10
+deme size                           =      6
+run time limit in seconds           =    300
+limit for generations               =   2000
+LHC iteration limit                 =   3000
+LHC termination threshold           = 1e-06
+rotation angle in degrees           = 30

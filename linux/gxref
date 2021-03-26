@@ -1,0 +1,114 @@
+#!/bin/bash
+if test $1 && test "$2"; then
+  echo "========================================================================================================================"
+  echo "Search program for (Hy)GLEAM sources.  V1.10 of August, 4th 2020"
+  if test -e $1; then
+    cd $1
+    if test -e sources; then
+      cd sources
+    fi
+    if test -e packages; then
+      echo -n "Search for \"$2\" starts in directory: "
+      pwd
+      echo "==========================================================================="
+      echo ================================ sys ======================================
+      fgrep "$2" packages/sys/*.h | more
+      fgrep "$2" packages/sys/*.c | more
+      echo ================================ ctio =====================================
+      fgrep "$2" packages/ctio/*.h | more
+      fgrep "$2" packages/ctio/*.c | more
+      echo ================================ fbhm =====================================
+      fgrep "$2" packages/fbhm/*.h | more
+      fgrep "$2" packages/fbhm/*.c | more
+      echo ================================ lgsw =====================================
+      fgrep "$2" packages/lgsw/*.h | more
+      fgrep "$2" packages/lgsw/*.c | more
+      echo ================================ chio =====================================
+      fgrep "$2" packages/chio/*.h | more
+      fgrep "$2" packages/chio/*.c | more
+      echo ================================ bew ======================================
+      fgrep "$2" packages/bew/*.h | more
+      fgrep "$2" packages/bew/*.c | more
+      echo ================================ chedi ====================================
+      fgrep "$2" packages/chedi/*.h | more
+      fgrep "$2" packages/chedi/*.c | more
+      echo ================================ hmod =====================================
+      fgrep "$2" packages/hmod/*.h | more
+      fgrep "$2" packages/hmod/*.c | more
+      echo ================================ aufg =====================================
+      fgrep "$2" packages/aufg/*.h | more
+      fgrep "$2" packages/aufg/*.c | more
+      echo ================================ simu =====================================
+      fgrep "$2" packages/simu/*.h | more
+      fgrep "$2" packages/simu/*.c | more
+      echo ================================ simu/lskp ================================
+      fgrep "$2" packages/simu/lskp/*.h | more
+      fgrep "$2" packages/simu/lskp/*.c | more
+      if test -e packages/simu/cec; then
+         echo ================================ simu/cec =================================
+         fgrep "$2" packages/simu/cec/*.h | more
+         if [[ -e packages/simu/cec/def1.c ]]; then
+            fgrep "$2" packages/simu/cec/*.c | more
+         fi
+      fi
+      echo ================================ evo ======================================
+      fgrep "$2" packages/evo/*.h | more
+      fgrep "$2" packages/evo/*.c | more
+      echo ================================ appl =====================================
+      fgrep "$2" packages/appl/*.h | more
+      fgrep "$2" packages/appl/*.c | more
+      echo ================================ men ======================================
+      fgrep "$2" packages/men/*.h | more
+      fgrep "$2" packages/men/*.c | more
+      if test -e packages/roco; then
+        echo ================================ roco =====================================
+        fgrep "$2" packages/roco/*.h  | more
+        fgrep "$2" packages/roco/*.cc | more
+      fi
+      if test -e appl_packages/opal; then
+        echo ================================ opal =====================================
+        fgrep "$2" appl_packages/opal/*.h | more
+        fgrep "$2" appl_packages/opal/*.c | more
+      fi
+      if test -e packages/parPop; then
+        echo ================================ parPop ===================================
+        fgrep "$2" packages/parPop/*.h | more
+        fgrep "$2" packages/parPop/*.c | more
+      fi
+      if test -e packages/webIO; then
+        echo ================================ webIO ====================================
+        fgrep "$2" packages/webIO/*.h | more
+        fgrep "$2" packages/webIO/*.c | more
+      fi
+      echo "========================== sources directory: ============================="
+      fgrep "$2" *.h | more
+      fgrep "$2" *.c | more
+      cd ..
+      
+# ========================= application directories in /projects/gleam/: =========================
+      if test $PWD = "/projects/gleam" || test $PWD = "/home/gleam" || test $PWD = "/home/wilfried/gleam"; then
+        echo ""
+        echo "======================== application directories: ========================"
+        for verz in gleam_ae hy_gleam_a hy_gleam_opalv; do
+          echo  ============================= linux/$verz =============================
+          fgrep "$2" linux/$verz/*.h | more
+          if test -e linux/$verz/*.c; then
+            fgrep "$2" linux/$verz/*.c | more
+          fi
+        done
+      fi
+  
+    else
+      echo "   *** Error: There is no directory \"packages\"!"
+    fi
+  else
+    echo "   *** Error: There is no directory \"$1\"!"
+  fi
+else
+  echo " "
+  echo 'Call: gxref <dir> <search-string>'
+  echo '   Searchs for the <search-string> in (Hy)GLEAM source files starting at directory <dir>.'
+  echo '   <dir> must be or contain the "sources" directory. A "." indicates the current working directory.'
+  echo '   Version V1.10 of August, 4th 2020'
+  echo ' '
+fi

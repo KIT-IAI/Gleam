@@ -1,0 +1,11 @@
+# ================================ Experimentbeschreibung ================================
+GLEAM/AE
+# erzeugt am Wed, 29.11.2017 
+# ----------------------------------------------------------------------------------------
+Genmodell           = ../../../InitFiles/opal_standard_lsv.mod
+Bewertung           = ../../../InitFiles/opal_kompakt21_rep.bew
+Programmparameter   = ../../../InitFiles/opal_standard_clv_sma_rep.tsk
+Evolutionsparameter = ../../../InitFiles/opal_standard.evo
+Chromosomenspeicher = 
+#! ------------------------- optionale Liste der anwendungsspezifischen Dateien --------------------
+../../../InitFiles/opal_standard.vl        # anwendungsspez.: OPAL, Verfahrensliste

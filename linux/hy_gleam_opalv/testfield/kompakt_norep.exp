@@ -1,0 +1,11 @@
+# ================================ Experimentbeschreibung ================================
+GLEAM/AE
+# erzeugt am Wed, 29.11.2017 
+# ----------------------------------------------------------------------------------------
+Genmodell           = opal_standard.mod
+Bewertung           = opal_kompakt21_norep.bew
+Programmparameter   = opal_standard_clv_norep.tsk
+Evolutionsparameter = opal_standard.evo
+Chromosomenspeicher = 
+#! -------------------- optionale Liste der anwendungsspezifischen Dateien ---------------
+opal_standard.vl        # anwendungsspez.: OPAL, Verfahrensliste

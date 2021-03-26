@@ -1,0 +1,41 @@
+--------------------------- System ---------------------------
+1: MemInfo                      3: K-Editor                     
+5: Lö.AK-Mem    6: LöAKs/Güte   7: LöAlleBAKs   8: Lösche AK    
+                A: AK  -> BAK   B: AK/G-> BAK   C: BAK -> AK    
+D: BAKs-> AKs                   F: Erzeuge AK   G: Teste AK     
+H: Gen.Repair   I: HamDist      J: MutOp-Vert   K: IgnorFatal   
+L: GenOp-Test   M: Ende         
+--------------------------------------------------------------
+
+
+
+--------------------------- System ---------------------------
+1: MemInfo      2: Erzeuge AK   3: Teste AK     4: K-Editor                     
+5: Lösche AK    6: LöAKs/Güte   7: Lö.AK-Mem    
+9: HamDist      A: MutOp-Vert   B: GenOp-Test   C: Gen.Repair  
+D: IgnorFatal   E: Ende
+--------------------------------------------------------------
+
+
+--------------------------- System ---------------------------
+1: MemInfo      2: Erzeuge AK   3: Teste AK     4: K-Editor                     
+5: Lösche AK    6: LöAKs/Güte   7: Lö.AK-Mem    
+9: HamDist      A: MutOp-Vert   B: GenOp-Test   C: Gen.Repair  
+D: IgnorFatal                   F: AK  -> BAK   G: AK/G-> BAK   
+H: BAK -> AK    I: BAKs-> AKs   J: LöAlleBAKs   K: Ende
+--------------------------------------------------------------
+
+########################################################
+
+
+---------------------------- Info ----------------------------
+1: AK-Mem       2: AK/G Info    3: AK-Längen    4: AK-Ausgabe    
+5: Opt-Ergebn   6: LadeStatus   7: Vers-Info    8: Ende         
+--------------------------------------------------------------
+
+---------------------------- Info ----------------------------
+1: AK-Mem       2: AK/G Info    3: AK-Längen    4: AK-Ausgabe    
+5: Opt-Ergebn   6: LadeStatus   7: Vers-Info    8: Basis-AKs                   
+9: Ende         
+--------------------------------------------------------------
+

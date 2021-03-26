@@ -1,0 +1,8 @@
+;========= Fehlertexte ======= Stand: 05.03.2001
+GLEAM/AE                                     DOS
+;23456789012345678901234567890123456789012345x..
+;===============================================
+Unkompatibles VL-File.
+Ergebnis-AK %ld/%ld nicht gefunden!
+Zu viele Intervalle bei Verfahren %ld: %ld
+Fehler in VL-Datei bei Verfahren: %ld

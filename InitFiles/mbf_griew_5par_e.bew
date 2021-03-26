@@ -1,0 +1,27 @@
+Assessment Description for GLEAM/AE                Wed, 19.08.2020 15:27:20
+===========================================================================
+  1   1       Number of active and used criteria from a total of 16.
+Griewank fct value :
+ 
+ 1  1.000000000000e+05  1.000000000000e-04
+1  1.000000000000e+05 1.000000000000e+04 1.000000000000e+03 0.000000000000e+00   1
+   1.000000000000e-06 1.000000000000e+01 1.000000000000e+03 2.000000000000e+04   5.000000000000e+01
+---------------- penalty functions: --------------- 
+Function value     :
+!
+ 0  0.000000000000e+00  0.000000000000e+00
+0  0.000000000000e+00 1.000000000000e+04 9.000000000000e+04 1.000000000000e+05   1
+   0.000000000000e+00 1.000000000000e+00 9.000000000000e+00 1.000000000000e+01   0.000000000000e+00
+=============== Do not remove this line! =================
+Data per entry (KRITERIUMS_TYP):
+  name with ":" (max 19 characters)
+  unit:          criteria: standard unit identifier (" "=unused).
+        penalty functions: out-of-range unit identifier:
+                         <flag><blank><identifier>
+                      flag = !: unused (empty)
+                             <: 2nd output of 1000 times the value
+                             >: 2nd output of the 1/1000 of the value
+                             %: 2nd utput in G format, if value < 1.0 or value >= 100000
+  class     max fitness  fullfilment value  | variable names: klasse  max_fitnes  erfuellungs_wert
+  eval fct  fitn-1  fitn-2  fitn-3  fitn-4  | variable names: bew_alg   nstart ns1 ns2 nend   nmax_cont
+            xval-1  xval-2  xval-3  xval-4  | variable names:  xstart xs1 xs2 xend   xdrittel

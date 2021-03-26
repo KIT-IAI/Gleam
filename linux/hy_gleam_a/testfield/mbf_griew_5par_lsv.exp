@@ -1,0 +1,8 @@
+# ================================ Experimentbeschreibung ================================
+GLEAM/AE
+# erzeugt am Tue, 01.09.2020 12:15:58
+# ------------------------------- Liste der Standardfiles: -------------------------------
+Genmodell                           = mbf_griew_5par_lsv.mod
+Bewertung                           = mbf_griew_5par.bew
+Programmparameter                   = mbf_griew_5par_amma.tsk
+Evolutionsparameter                 = mbf_wpar.evo

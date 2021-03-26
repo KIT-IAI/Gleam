@@ -1,0 +1,12 @@
+# ================================ Experimentbeschreibung ================================
+GLEAM/AE
+# erzeugt am Wed, 01.03.2017 12:11:40
+# ----------------------------------------------------------------------------------------
+Genmodell                 = mitsu_hy.mod
+Bewertung                 = lesak.bew
+Programmparameter         = mitsu.tsk
+Evolutionsparameter       = lsk_stnd.evo
+Chromosomenspeicher       = 
+#! ------------------------- optionale Liste der anwendungsspezifischen Dateien --------------------
+mitsu.kin                   # anwendungsspez.: LESAK: Kinematik
+stolper.obs                 # anwendungsspez.: LESAK: Hindernisse

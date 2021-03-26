@@ -1,0 +1,77 @@
+Assessment Description forr GLEAM/AE          13.03.2001   revised 4.4.2017
+===========================================================================
+  6   6       Number of active and used criteria from a total of 16.
+TotalDuration      :
+hrs
+ 1  7.000000e+04  1.360000e+03   
+5  1.000000e+05 9.999990e+04 2.950094e+04 0.000000e+00   1
+   1.200000e+03 1.200100e+03 1.400000e+03 1.680000e+03   1.380000e+03
+MaxShiftPeak       :
+PN
+ 2  6.000000e+03  9.000000e+00   
+1  1.000000e+05 3.333333e+04 8.333333e+03 0.000000e+00   1
+   9.000000e+00 1.000000e+01 1.100000e+01 1.200000e+01   0.000000e+00
+ShiftPeakExcess    :
+PN*hrs
+ 1  1.900000e+04  6.000000e+01   
+3  0.000000e+00 0.000000e+00 0.000000e+00 1.000000e+05   1
+   2.220446e-16 0.000000e+00 0.000000e+00 1.797693e+308   3.000000e+01
+DeadlineDelay      :
+hrs
+ 1  1.000000e+00  0.000000e+00   
+1  1.000000e+05 8.000000e+04 2.000000e+04 0.000000e+00   1
+   2.220446e-16 2.000000e-04 8.000000e-04 1.000000e-03   1.000000e+01
+UnderProduction    :
+batches
+ 1  1.000000e+00  0.000000e+00   
+1  1.000000e+05 8.000000e+04 2.000000e+04 0.000000e+00   1
+   2.220446e-16 2.000000e-04 8.000000e-04 1.000000e-03   2.000000e+00
+OffTime            :
+hrs
+ 1  4.998000e+03  7.200000e+01   
+3  0.000000e+00 0.000000e+00 0.000000e+00 1.000000e+05   1
+   2.220446e-16 0.000000e+00 0.000000e+00 1.797693e+308   5.000000e+01
+---------------- penalty functions: --------------- 
+TotalDuration      :
+!
+ 1  0.000000e+00  0.000000e+00   
+3  0.000000e+00 1.000000e+04 9.000000e+04 1.000000e+05   1
+   1.680000e+03 1.000000e+00 9.000000e+00 1.797693e+308   1.920000e+03
+MaxShiftPeak       :
+!
+ 1  0.000000e+00  0.000000e+00   
+3  0.000000e+00 0.000000e+00 0.000000e+00 1.000000e+05   1
+   1.200000e+01 0.000000e+00 0.000000e+00 1.797693e+308   1.400000e+01
+ShiftPeakExcess    :
+!
+ 0  0.000000e+00  0.000000e+00   
+99  0.000000e+00 0.000000e+00 0.000000e+00 0.000000e+00   1
+   0.000000e+00 0.000000e+00 0.000000e+00 0.000000e+00   0.000000e+00
+DeadlineDelay      :
+!
+ 1  0.000000e+00  0.000000e+00   
+3  0.000000e+00 0.000000e+00 0.000000e+00 1.000000e+05   1
+   2.220446e-16 0.000000e+00 0.000000e+00 1.797693e+308   2.000000e+01
+UnderProduction    :
+!
+ 1  0.000000e+00  0.000000e+00   
+3  0.000000e+00 0.000000e+00 0.000000e+00 1.000000e+05   1
+   1.000000e-03 0.000000e+00 0.000000e+00 1.797693e+308   1.500000e+00
+OffTime            :
+!
+ 0  0.000000e+00  0.000000e+00   
+99  0.000000e+00 0.000000e+00 0.000000e+00 0.000000e+00   1
+   0.000000e+00 0.000000e+00 0.000000e+00 0.000000e+00   0.000000e+00
+=============== Do not remove this line! =================
+Data per entry (KRITERIUMS_TYP):
+  name with ":" (max 19 characters)
+  unit:          criteria: standard unit identifier (" "=unused).
+        penalty functions: out-of-range unit identifier:
+                         <flag><blank><identifier>
+                      flag = !: unused (empty)
+                             <: 2nd output of 1000 times the value
+                             >: 2nd output of the 1/1000 of the value
+                             %: 2nd utput in G format, if value < 1.0 or value >= 100000
+  class     max fitness  fullfilment value  | variable names: klasse  max_fitnes  erfuellungs_wert
+  eval fct  fitn-1  fitn-2  fitn-3  fitn-4  | variable names: bew_alg   nstart ns1 ns2 nend   nmax_cont
+            xval-1  xval-2  xval-3  xval-4  | variable names:  xstart xs1 xs2 xend   xdrittel

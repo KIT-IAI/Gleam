@@ -1,0 +1,9 @@
+# ================================ Experimentbeschreibung ================================
+GLEAM/AE
+# generated on Wed, 01.03.2017 12:11:40
+# ----------------------------------------------------------------------------------------
+Gene model                = mbf_griew_5par_lhc.mod
+Evaluation                = mbf_griew_5par_e.bew
+Program parameters        = mbf_griew_5par_clv_e.tsk
+Evolution parameters      = mbf_wpar_e.evo
+Chromosome memory         = 

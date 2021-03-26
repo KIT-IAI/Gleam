@@ -1,0 +1,29 @@
+# -------------------------- Program Parameter File (TSK file) --------------------------
+GLEAM/AE  MathFkt 
+# written on 1.9.2020
+# ----------------------------------------------------------------------------------------
+rotation angle in degrees = 30.0
+# --------------------------------------------------------------------------------
+with init. of random generator    = yes
+with detailed logging             = yes    # only for command line version
+with result simulation            = 1      # only for command line version
+with saving of result chromosomes = No     # only for command line version
+with job termination tests        = yes
+termination test rate [pairings]  = 20
+# -------------------------------------------------------------
+optimization procedure             = ASMA
+MA with all-improvement            = yes
+population size                    =    120
+deme size                          =      8    # (Pop|Deme): (5|4) (10|6) (>=20|8)
+init. strategy for start population= new
+init. strategy parameter           =      0   
+minimal hamming dist.f.XO/Reco [%] =      0.1
+ranking parameter                  =      1.5  # 1.0 - 2.0 (selective pressure: min - max)
+acceptance rule for offspring      = localLeast-ES
+number of digits of (simu)parameter=      7    
+# -------------------------------------------------------------
+run time limit in seconds           =   1800    # 30 min
+limit for generations               =   2000
+max.gen. w/o child accept. in deme  =    200    # GAc
+max.gen. w/o deme improvement (GDI) =    500    # GDI
+target fitness                      = 100000.0

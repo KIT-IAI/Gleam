@@ -1,0 +1,10 @@
+# -------------------------- Program Parameter File (TSK file) ---------------------------
+GLEAM/AE  MathFkt
+# written on Tue, 01.09.2020 10:40:28
+# ----------------------------------------------------------------------------------------
+optimization procedure              =   AMMA   # (3)
+LHC (Local Hill Climber) index      =      0
+population size                     =     20
+run time limit in seconds           =    300
+LHC iteration limit                 =   5000
+LHC termination threshold           = 1e-08

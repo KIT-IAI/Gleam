@@ -1,0 +1,8 @@
+# ================================ Experimentbeschreibung ================================
+GLEAM/AE
+# erzeugt am Tue, 01.09.2020 11:52:32
+# ------------------------------- Liste der Standardfiles: -------------------------------
+Genmodell                           = mbf_fox_lsv.mod
+Bewertung                           = mbf_fox.bew
+Programmparameter                   = mbf_fox_rot_lsv.tsk
+Evolutionsparameter                 = mbf_wpar.evo

@@ -1,0 +1,10 @@
+Hindernisse zum Robotermodells in Datei "mitsu.kin" vom 30.8.1991 :
+ 
+Hindernis      X    Y    Z    B    L    H
+ Wand1          0  -40    0    8   21   70
+ Wand2        -40    0    0   21    8   70
+ Stolperstein -19  -19    0    7    7   25
+Ende
+ 
+******************* Kinematik Ende ********************
+ 

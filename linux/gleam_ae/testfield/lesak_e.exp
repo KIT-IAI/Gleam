@@ -1,0 +1,12 @@
+# ================================ Experiment Description ================================
+GLEAM/AE
+# generated on Wed, 01.03.2017 12:11:40
+# ----------------------------------------------------------------------------------------
+Gene model                = mitsu_hy_e.mod
+Evaluation                = lesak_e.bew
+Program parameters        = mitsu_e.tsk
+Evolution parameters      = lsk_stnd_e.evo
+Chromosome memory         = 
+#! ------------------------- optional list of application specific files --------------------
+mitsu.kin                   # application specific: LESAK: kinematics
+stolper.obs                 # application specific: LESAK: obstacles

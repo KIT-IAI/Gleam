@@ -1,0 +1,21 @@
+# -------------------------- Program Parameter File (TSK file) --------------------------
+GLEAM/AE  OPAL/V
+# written on Wed, 27.8.2020
+# ----------------------------------------------------------------------------------------
+Max. employee peak per shift        =  9.0
+with phenotypic repair              = no
+# ----------------------------------------------------------------------------------------
+optimization procedure             =  Gleam    # GLEAM, SMA, ASMA, AMMA, LSV  optional
+population size                    =   1800
+deme size                          =      8   # (Pop|Deme): (5|4) (10|6) (>=20|8)
+init. strategy for start population= new      # neu, best, mix, bestNeu, lsvNeu, lsvBest
+init. strategy parameter           =      0   # required for mix, bestNeu, lsvNeu, lsvBest
+minimal hamming dist.f.XO/Reco [%] =      0.1
+ranking parameter                  =      1.4 # 1.0 - 2.0 (selective pressure: min - max)
+acceptance rule for offspring      = localLeast-ES  # always, localLeast, betterParent
+# ----------------------------------------------------------------------------------------
+run time limit in seconds           =   1800    # 30 min
+limit for generations               =   1000
+max.gen. w/o child accept. in deme  =    100    # GAc
+max.gen. w/o deme improvement (GDI) =    250    # GDI
+target fitness                      = 100000.0

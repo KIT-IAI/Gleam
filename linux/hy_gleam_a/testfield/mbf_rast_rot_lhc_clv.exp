@@ -1,0 +1,7 @@
+GLEAM/AE =======================================================================
+# Experiment "mbf_rast_lhc_rot"                                       09.06.2017       
+# ==============================================================================
+Gene model           = mbf_rast_lhc.mod
+Evaluation           = mbf_rast_e.bew
+Program parameters   = mbf_rast_rot_lhc_clv.tsk
+Evolution parameters = mbf_vpar.evo

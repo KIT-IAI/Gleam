@@ -1,0 +1,18 @@
+# -------------------------- Programmparameter Datei (TSK file) --------------------------
+GLEAM/AE  MathFkt
+# erzeugt am Tue, 01.09.2020 17:57:28
+# ----------------------------------------------------------------------------------------
+Drehwinkel in Grad                  = 30
+# ----------------------------------------------------------------------------------------
+MA mit all-Verbesserung             =      1
+Optimierungsverfahren               =   AMMA   # (3)
+LSV-Index                           =      0
+Populationsgroesse                  =    120
+# ----------------------------------------------------------------------------------------
+Maximale Laufzeit [sec]             =   1800
+Maximale Generationsanzahl          =   2000
+Max. Gen. ohne Akzeptanz im Deme    =    200
+Max. Gen. ohne Deme-Verbesserung    =    999
+# ----------------------------------------------------------------------------------------
+LSV-Iterationslimit                 =   5000
+LSV-Abbruchschranke                 = 1e-07
