@@ -13,12 +13,12 @@ selection is performed with linear ranking. Furthermore, instead of the otherwis
 population, a structured one based on the neighborhood model is used. The self-adaptive balance between 
 breadth-first and depth-first search thus achieved efficiently counteracts premature convergence. The 
 neighborhood model can be viewed as a linear variant of cellular EAs. The memetic extension of GLEAM 
-integrates local search procedures or heuristics to speed up evolutionary search.
+called HyGLEAM integrates local search procedures or heuristics to speed up evolutionary search.
 
 Further details and references can be found in the User Manual and in the rest of the documentation found 
 in the `Docu` sub directory.
 
-There are two program versions of GLEAM per application, one command line version and one with a simple 
+There are two program versions of GLEAM and HyGLEAM per application, one command line version and one with a simple 
 textual user interface. Both are started in a shell. There is no implementation with a graphical user 
 interface.
 
