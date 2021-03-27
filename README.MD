@@ -34,7 +34,7 @@ The software is suitable
 
 ### Prerequisites
 If you want to extend GLEAM or HyGLEAM and/or adapt it to an optimization problem, you should have
-* at minimum basic knowledge about Evolutionary Algorithms
+* at minimum basic knowledge about Evolutionary Algorithms,
 * programming experience and experience with Linux, and
 * some experience with the C programming language is certainly helpful.
 
