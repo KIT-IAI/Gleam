@@ -30,13 +30,13 @@ C++ compiler version 9.3.0.
 The software is suitable 
 * to gain experience with EAs and Memetic Algorithms (MA), 
 * to implement your own optimization project based on a well-proven EA or MA, and
-* to extend the MA by own heuristics or other local search methods
+* to extend the MA by own heuristics or other local search methods.
 
 ### Prerequisites
 If you want to extend GLEAM or HyGLEAM and/or adapt it to an optimization problem, you should have
 * at minimum basic knowledge about Evolutionary Algorithms,
 * programming experience and experience with Linux, and
-* some experience with the C programming language is certainly helpful.
+* some experience with the C programming language is certainly also helpful.
 
 ### Support
 The project is the result of about 30 years of research and development work at KIT, where the software 
