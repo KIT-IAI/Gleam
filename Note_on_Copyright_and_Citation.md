@@ -2,7 +2,7 @@
 ### Notice on Copyright and Citation
 
 This is free software, which is governed by the Lesser GNU Public Licence (LGPL), 
-version 3, see the 'LICENSE.md' file.
+version 3, see the `LICENSE.md` file.
 
 -----------------------------------------------------------------------------
 
@@ -39,7 +39,7 @@ C. Blume: *GLEAM - A System for Intuitive Learning*. In: Schwefel, H.P.,
 Maenner, R. (eds.): Proc. of PPSN I, LNCS 496, Springer, Berlin, S.48-54, 1990.
 
 C. Blume, W. Jakob: *GLEAM - An Evolutionary Algorithm for Planning and Control 
-Based on Evolution Strategy*. In: E. Cantù-Paz (ed.): Conf. Proc. of Genetic 
+Based on Evolution Strategy*. In: E. CantÃ¹-Paz (ed.): Conf. Proc. of Genetic 
 and Evolutionary Computation Conference (GECCO 2002), New York, Vol. Late 
 Breaking Papers (LBP), 2002, pp.31-38
 
@@ -68,9 +68,9 @@ Sie koennen sie unter den Bedingungen der GNU Lesser General Public License, wie
 von der Free Software Foundation, Version 3 der Lizenz oder (nach Ihrer Wahl) 
 jeder spaeteren veroeffentlichten Version, weiterverbreiten und/oder modifizieren.
 
-GLEAM und HyGLEAM werden in der Hoffnung, dass sie nützlich sein werden, aber
+GLEAM und HyGLEAM werden in der Hoffnung, dass sie nÃ¼tzlich sein werden, aber
 OHNE JEDE GEWAEHRLEISTUNG, bereitgestellt; sogar ohne die implizite Gewaehr-
-leistung der MARKTFAEHIGKEIT oder EIGNUNG FÜR EINEN BESTIMMTEN ZWECK. Siehe die 
+leistung der MARKTFAEHIGKEIT oder EIGNUNG FÃœR EINEN BESTIMMTEN ZWECK. Siehe die 
 GNU Lesser General Public License fuer weitere Details.
 
 In allen Publikationen, welche unter Verwendung von GLEAM, HyGLEAM oder darauf 
@@ -84,14 +84,14 @@ C. Blume: *GLEAM - A System for Intuitive Learning*. In: Schwefel, H.P.,
 Maenner, R. (eds.): Proc. of PPSN I, LNCS 496, Springer, Berlin, S.48-54, 1990.
 
 C. Blume, W. Jakob: *GLEAM - An Evolutionary Algorithm for Planning and Control 
-Based on Evolution Strategy*. In: E. Cantù-Paz (ed.): Conf. Proc. of Genetic 
+Based on Evolution Strategy*. In: E. CantÃ¹-Paz (ed.): Conf. Proc. of Genetic 
 and Evolutionary Computation Conference (GECCO 2002), New York, Vol. Late 
 Breaking Papers (LBP), 2002, pp.31-38
 
 
 **GLEAM und HyGLEAM:**
 
-C. Blume, W. Jakob:  GLEAM - ein Evolutionärer Algorithmus und seine 
+C. Blume, W. Jakob:  GLEAM - ein EvolutionÃ¤rer Algorithmus und seine 
 Anwendungen. KIT Scientific Publishing, Schriftenreihe des Instituts fuer 
 Angewandte Informatik / Automatisierungstechnik (AIA), Band 32, 
 ISBN 978-3-86644-436-2, 2009. 
